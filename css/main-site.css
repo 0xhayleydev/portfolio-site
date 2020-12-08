@@ -1,9 +1,8 @@
-html {
+.main-body {
   font-family: 'JetBrains Mono', monospace;
-  width: 90%;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 body {
@@ -12,15 +11,16 @@ body {
 
 .site-header {
   display: flex;
-  max-height: 10vh;
-  min-height: 10vh;
-  height: 10vh;
-  width: 88%;
   position: fixed;
   text-align: center;
-  padding: 1vh;
-  margin-top: -1vh;
   background-color: #3C4043;
+  border: 1% solid #333333;
+  max-height: 10%;
+  justify-content: space-between;
+  align-items: baseline;
+  inline-size: 60%;
+  border: 4px solid black;
+  box-sizing: border-box;
 }
 
 .site-identity {
@@ -29,49 +29,64 @@ body {
   vertical-align: middle;
   text-align: left;
   margin-bottom: 5px;
+  margin-left: 5px;
+  max-height: 100%;
+  max-width: 25%;
 }
 
 .site-identity.site-logo {
   display: inline-block;
-  max-height: 100%;
-  border: 4px solid #333333;
+  border: 4px solid #434343;
+}
+
+.site-identity.site-logo:hover {
+  border-color: #333333;
+  text-decoration: none;
 }
 
 .site-identity.site-title {
+  font-size: 200%;
   display: inline-block;
-  font-size: auto;
+  text-align: center;
   color: white;
-  max-height: 100%;
+  text-decoration: none;
+}
+
+.site-identity.site-title:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .site-navigation {
-  border: 2px solid green;
-  display: inline-block;
+  /* border: 2px solid green; */
+  display: inline-flex;
+  align-self: center;
+  margin-right: 5px;
 }
 
 .site-navigation.menu-link {
+  font-size: 100%;
   display: inline-block;
-  font-size: 50%;
-  vertical-align: middle;
+  vertical-align: top;
   background-color: #333333;
   border: 4px solid #434343;
   text-decoration: none;
   color: white;
   padding: 5px;
   margin: 5px;
-  min-width: 20%;
 }
 
 .site-navigation.menu-link.menu-sublink {
 
 }
 
-.site-navigation.menu-link:link, .site-navigation.menu-link:visited {
+.site-navigation.menu-link:link,
+.site-navigation.menu-link:visited {
   color: white;
   text-decoration: none;
 }
 
-.site-navigation.menu-link:hover {
+.site-navigation.menu-link:hover  {
   color: gray;
   text-decoration: none;
 }
@@ -83,18 +98,11 @@ body {
 
 .site-banner {
   display: inline;
-  margin-top: 100%;
+  text-align: center;
   max-width: 100%;
 }
 
-.side-bar {
-  border: 2px dashed darkblue;
-  text-align: right;
-  display: block;
-  margin-left: 90%;
-}
-
 .site-body {
-  display: inline;
-  max-width: 90%;
+  text-align: center;
+  display: block;
 }
