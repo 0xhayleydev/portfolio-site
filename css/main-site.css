@@ -1,6 +1,9 @@
 html {
   font-family: 'JetBrains Mono', monospace;
+  width: 90%;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 body {
@@ -8,52 +11,59 @@ body {
 }
 
 .site-header {
-  display: inline-block;
-  height: 10%;
-  max-height: 250px;
-  width: 90%;
-  margin: 5px;
+  display: flex;
+  max-height: 10vh;
+  min-height: 10vh;
+  height: 10vh;
+  width: 88%;
+  position: fixed;
+  text-align: center;
+  padding: 1vh;
+  margin-top: -1vh;
+  background-color: #3C4043;
 }
 
 .site-identity {
   display: inline-block;
-  max-height: 250px;
   margin: 0px;
   vertical-align: middle;
-  text-align: center;
-  margin: 5px;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 .site-identity.site-logo {
   display: inline-block;
-  max-height: 200px;
+  max-height: 100%;
+  border: 4px solid #333333;
 }
 
 .site-identity.site-title {
   display: inline-block;
-  font-size: 400%;
+  font-size: auto;
   color: white;
+  max-height: 100%;
 }
 
 .site-navigation {
+  border: 2px solid green;
   display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  line-height: large;
-  margin: 5px;
 }
 
-.site-navigation.menu-item {
+.site-navigation.menu-link {
   display: inline-block;
-  font-size: 75%;
+  font-size: 50%;
+  vertical-align: middle;
   background-color: #333333;
   border: 4px solid #434343;
   text-decoration: none;
   color: white;
+  padding: 5px;
+  margin: 5px;
+  min-width: 20%;
 }
 
-.site-navigation.menu-link {
-  padding: 10px;
+.site-navigation.menu-link.menu-sublink {
+
 }
 
 .site-navigation.menu-link:link, .site-navigation.menu-link:visited {
@@ -71,11 +81,20 @@ body {
   text-decoration: none;
 }
 
-.main-body {
-  
+.site-banner {
+  display: inline;
+  margin-top: 100%;
+  max-width: 100%;
 }
 
 .side-bar {
-  display: block;
+  border: 2px dashed darkblue;
   text-align: right;
+  display: block;
+  margin-left: 90%;
+}
+
+.site-body {
+  display: inline;
+  max-width: 90%;
 }
