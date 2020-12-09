@@ -1,26 +1,35 @@
-.main-body {
+:root {
+  --margin-size: 20%;
+  --page-width: calc(100% - var(--margin-size) * 2);
+  --header-height: 10%;
+  --page-color: #1B1B1B;
+}
+
+.whole-page {
   font-family: 'JetBrains Mono', monospace;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: var(--margin-size);
+  margin-right: var(--margin-size);
+  margin-top: 0;
 }
 
 body {
-  background-color: #1B1B1B;
+  background-color: var(--page-color);
 }
 
 .site-header {
+  border: 1% solid #333333;
   display: flex;
   position: fixed;
   text-align: center;
   background-color: #3C4043;
-  border: 1% solid #333333;
-  max-height: 10%;
   justify-content: space-between;
   align-items: baseline;
-  inline-size: 60%;
+  inline-size: var(--page-width);
   border: 4px solid black;
   box-sizing: border-box;
+  min-height: var(--header-height);
+  flex-wrap: wrap;
 }
 
 .site-identity {
@@ -28,8 +37,7 @@ body {
   margin: 0px;
   vertical-align: middle;
   text-align: left;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  margin: 5px;
   max-height: 100%;
   max-width: 25%;
 }
@@ -37,6 +45,9 @@ body {
 .site-identity.site-logo {
   display: inline-block;
   border: 4px solid #434343;
+  padding-right: 0;
+  margin: 0;
+  max-height: 50%;
 }
 
 .site-identity.site-logo:hover {
@@ -50,6 +61,7 @@ body {
   text-align: center;
   color: white;
   text-decoration: none;
+  margin: 0;
 }
 
 .site-identity.site-title:hover {
@@ -58,10 +70,11 @@ body {
 }
 
 .site-navigation {
-  /* border: 2px solid green; */
   display: inline-flex;
   align-self: center;
   margin-right: 5px;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
 .site-navigation.menu-link {
@@ -73,11 +86,10 @@ body {
   text-decoration: none;
   color: white;
   padding: 5px;
-  margin: 5px;
 }
 
-.site-navigation.menu-link.menu-sublink {
-
+.site-navigation.menu-link.sub-menu {
+  display: none;
 }
 
 .site-navigation.menu-link:link,
