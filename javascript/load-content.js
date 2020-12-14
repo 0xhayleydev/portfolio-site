@@ -1,11 +1,11 @@
-fetch("https://hayleydavi.es/header.html")
+fetch("https://hayleydavi.es/loads/header.html")
 .then(response => {
     return response.text()
 })
 .then(data => {
     document.getElementById("header").innerHTML = data;
 });
-fetch("https://hayleydavi.es/footer.html")
+fetch("https://hayleydavi.es/loads/footer.html")
 .then(response => {
     return response.text()
 })
