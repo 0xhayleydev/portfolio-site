@@ -1,5 +1,5 @@
 :root {
-  --margin-size: 10%;
+  --margin-size: 2%;
   --max-page-width: calc(100% - var(--margin-size) * 2);
   --min-page-width: 720px;
   --testing-border-size: 2px;
