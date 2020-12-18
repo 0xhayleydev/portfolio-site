@@ -11,7 +11,20 @@
   background-color: var(--footer-background);
   box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 4px;
+}
+
+.footer-icon {
+  vertical-align: middle;
+  font-size: 2em;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer-icon:hover {
+  opacity: .7;
 }

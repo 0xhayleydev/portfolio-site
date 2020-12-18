@@ -3,17 +3,16 @@
   --header-background: #3C4043;
   --nav-button-color: #333333;
   --nav-button-border-color: #434343;
-  --header-height: 10%;
+  --header-height: 5%;
 }
 
 .site-header {
-  width: 100%;
   height: var(--header-height);
   border: 4px solid var(--header-border);
   background-color: var(--header-background);
   box-sizing: border-box;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
 }
