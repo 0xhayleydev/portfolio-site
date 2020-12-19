@@ -6,6 +6,10 @@ fetch("loads/header.html")
     return response.text()
 })
 .then(data => {
+    var pageName = "page-" + location.href.split("/").slice(-1)[0].replace(".html", "");
+    data = data.replace('<a class="site-navigation menu-link" id="' + pageName,
+    '<a class="site-navigation menu-link current" id="' + pageName);
+
     document.getElementById("header").innerHTML = data;
 });
 fetch("loads/footer.html")

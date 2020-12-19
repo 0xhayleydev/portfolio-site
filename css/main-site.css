@@ -45,6 +45,19 @@ body {
   font-size: 5em;
 }
 
+.project {
+  width: 206px;
+  height: 165px;
+}
+
+.project.image {
+  width: 206px;
+  height: 165px;
+  border: 5px solid black;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
 hr {
   color: var(--text-color);
 }
