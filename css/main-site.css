@@ -5,6 +5,7 @@
   --testing-border-size: 0px;
   --page-color: #1B1B1B;
   --text-color: #FFFFFF;
+  --section-color: calc(var(--page-color) *.7)
 }
 
 .whole-page {
@@ -34,31 +35,44 @@ body {
 
 .flex-div {
   padding: 4px;
-  border: var(--testing-border-size) dashed blue;
   justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.flex-content {
+  margin: 20px;
+  border: var(--testing-border-size) dashed pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
 }
 
 .tech-icon {
   font-size: 5em;
 }
 
-.project {
+.project-image {
+  border: 5px solid var(--header-background);
+  object-fit: cover;
+  box-sizing: border-box;
+  overflow: hidden;
   width: 206px;
   height: 165px;
 }
 
-.project.image {
+.section {
   border: 5px solid black;
-  object-fit: cover;
-  box-sizing: border-box;
-  overflow: hidden;
+  margin-bottom: 10px;
+  background-color: var(--section-color);
 }
 
 hr {
   color: var(--text-color);
-  margin: 2% 0%;
+  margin: 2% 40%;
 }
 
 a {
@@ -75,5 +89,4 @@ h1 {
 
 h2 {
   color: #1DCDFE;
-  text-decoration: underline;
 }
