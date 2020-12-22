@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .site-identity {
@@ -22,7 +22,7 @@
   display: inline-flex;
   align-self: center;
   margin: 5px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   vertical-align: middle;
 }
