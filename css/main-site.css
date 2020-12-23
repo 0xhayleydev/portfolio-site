@@ -1,6 +1,6 @@
 :root {
-  --margin-size: 10vw;
-  --max-page-width: calc(100vw - var(--margin-size) * 2);
+  --margin-size: 15vw;
+  --max-page-width: calc(100vw - (var(--margin-size) * 2));
   --testing-border-size: 0px;
   --page-color: #1B1B1B;
   --text-color: #FFFFFF;
@@ -8,11 +8,13 @@
 }
 
 .whole-page {
+  margin: 0 auto;
   text-align: center;
-  margin: 0 var(--margin-size);
   font-family: 'JetBrains Mono', monospace;
   color: var(--text-color);
   font-size: normal;
+  min-width: min-content;
+  max-width: var(--max-page-width);
 }
 
 body {

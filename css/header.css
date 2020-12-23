@@ -59,7 +59,7 @@
   border: var(--testing-border-size) dashed pink;
   display: inline-flex;
   align-self: center;
-  margin-right: 5px;
+  margin: 5px;
   flex-wrap: wrap;
   justify-content: center;
 }
