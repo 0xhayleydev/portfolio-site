@@ -48,23 +48,34 @@ body {
   justify-content: space-between;
 }
 
-.tech-icon {
-  font-size: 5em;
-}
-
-.project-image {
+.flex-content iframe, .flex-content img {
   border: 5px solid var(--header-background);
-  object-fit: cover;
+  object-fit: contain;
   box-sizing: border-box;
   overflow: hidden;
   width: 206px;
   height: 165px;
 }
 
+.tech-icon {
+  font-size: 5em;
+}
+
+.tech-icon.small {
+  font-size: 2em;
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+
 .section {
   border: 5px solid black;
   margin-bottom: 10px;
   background-color: var(--section-color);
+}
+
+.devicon-gml-plain {
+  src: url(../img/icons/game-maker.svg);
 }
 
 hr {
