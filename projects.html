@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
         <script src="https://kit.fontawesome.com/2d7cda5ffb.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/load-content.js"></script>
+        <script type="text/javascript" src="js/filter-projects.js"></script>
     </head>
 
     <body class="whole-page">
@@ -32,9 +33,17 @@
         
         <div class="site-body">
             <hr>
-            <h1>Projects</h1>
+            <h1>All Projects</h1>
+            <div class="project-filters">
+                <input type="checkbox" id="personal-project" onclick="filterProjects(id)" checked="checked">
+                <label for="personal-project">Personal Projects</label>
+                <input type="checkbox" id="college-project" onclick="filterProjects(id)" checked="checked">
+                <label for="college-project">College Projects</label>
+                <input type="checkbox" id="university-project" onclick="filterProjects(id)" checked="checked">
+                <label for="university-project">University Projects</label>
+            </div>
             <hr>
-            <span id="Hayley Davies Portfolio">
+            <span id="Hayley Davies Portfolio" class="personal-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">
@@ -60,7 +69,7 @@
                 </div>
                 <hr>
             </span>
-            <span id="The Eyes Bot">
+            <span id="The Eyes Bot" class="personal-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">
@@ -87,7 +96,7 @@
                 </div>
                 <hr>
             </span>
-            <span id="Tinkering Audio">
+            <span id="Tinkering Audio" class="university-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">
@@ -116,7 +125,7 @@
                 </div>
                 <hr>
             </span>
-            <span id="Tonnow Yn-Mysk">
+            <span id="Tonnow Yn-Mysk" class="university-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">
@@ -145,7 +154,7 @@
                 </div>
                 <hr>
             </span>
-            <span id="Tinkering Graphics">
+            <span id="Tinkering Graphics" class="university-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">
@@ -174,7 +183,7 @@
                 </div>
                 <hr>
             </span>
-            <span id="Spaceship">
+            <span id="Spaceship" class="personal-project">
                 <div class="project-flex">
                     <div class="project-details">
                         <div class="project-title">

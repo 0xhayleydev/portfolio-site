@@ -14,8 +14,8 @@
   justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
-  padding: 0 4px;
-  margin-top: 4px;
+  padding: 4px;
+  margin: 4px;
 }
 
 .footer-icon {
@@ -27,4 +27,8 @@
 
 .footer-icon:hover {
   opacity: .7;
+}
+
+.footer-center {
+  margin: auto;
 }
