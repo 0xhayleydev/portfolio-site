@@ -89,7 +89,7 @@ body {
 
 .project-summary {
   max-width: 75%;
-  margin: auto;
+  width: 75%;
 }
 
 .project-title h1, 
