@@ -33,41 +33,62 @@
         
         <div class="site-body">
             <hr>
-            <h1>All Projects</h1>
+            <div class="flex-row">
+                <h1>
+                    All Projects
+                </h1>
+                <h1>
+                    <i class="fas fa-sort-down" id="show-filters" onclick="toggleFilters()"></i>
+                    <i class="fas fa-sort-up" id="hide-filters" onclick="toggleFilters()"></i>
+                </h1>
+            </div>
             <div class="project-filters">
-                <input type="checkbox" id="personal-project" onclick="filterProjects(id)" checked="checked">
-                <label for="personal-project">Personal Projects</label>
-                <input type="checkbox" id="college-project" onclick="filterProjects(id)" checked="checked">
-                <label for="college-project">College Projects</label>
-                <input type="checkbox" id="university-project" onclick="filterProjects(id)" checked="checked">
-                <label for="university-project">University Projects</label>
+                <div class="checkbox">
+                    <h3>Project Type</h3>
+                    <div id="filter-type">
+                        <div class="checkbox">
+                            <input type="checkbox" id="personal-project" onclick="toggleClassVisibility(id)" checked="checked">
+                            <label for="personal-project">Personal Projects</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="college-project" onclick="toggleClassVisibility(id)" checked="checked">
+                            <label for="college-project">College Projects</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="university-project" onclick="toggleClassVisibility(id)" checked="checked">
+                            <label for="university-project">University Projects</label>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr>
             <span id="Hayley Davies Portfolio" class="personal-project">
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Hayley Davi.es (2020)</h2>
-                            <h3>Personal: Website</h3>
-                            <img src="img/projects/cdgamedev-github-io-promo.png" alt="Portfolio Site Image">
+                <span class="year-2020">
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Hayley Davi.es (2020)</h2>
+                                <h3>Personal: Website</h3>
+                                <img src="img/projects/cdgamedev-github-io-promo.png" alt="Portfolio Site Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-html5-plain-wordmark"></i>
+                                <i class="devicon-css3-plain-wordmark"></i>
+                                <i class="devicon-javascript-plain"></i><br>
+                                <i class="devicon-github-original"></i>
+                            </div>
                         </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-html5-plain-wordmark"></i>
-                            <i class="devicon-css3-plain-wordmark"></i>
-                            <i class="devicon-javascript-plain"></i><br>
-                            <i class="devicon-github-original"></i>
+                        <div class="project-summary">
+                            <p>
+                                This project began after disliking certain aspects of the WordPress functionalities (mainly, embeds/iframes).<br>
+                                I decided it would be a cool idea to make my own website and try and do that from scratch.<br>
+                                After speaking to <a href="https://www.christopherprobertson.com/">Christopher Robertson</a> - who'd done the same thing prior to me, I began work on the site you're on right now!
+                            </p>
+                            <a href="https://github.com/cdgamedev/cdgamedev.github.io">Website Source Code</a>
                         </div>
                     </div>
-                    <div class="project-summary">
-                        <p>
-                            This project began after disliking certain aspects of the WordPress functionalities (mainly, embeds/iframes).<br>
-                            I decided it would be a cool idea to make my own website and try and do that from scratch.<br>
-                            After speaking to <a href="https://www.christopherprobertson.com/">Christopher Robertson</a> - who'd done the same thing prior to me, I began work on the site you're on right now!
-                        </p>
-                        <a href="https://github.com/cdgamedev/cdgamedev.github.io">Website Source Code</a>
-                    </div>
-                </div>
-                <hr>
+                    <hr>
+                </span>
             </span>
             <span id="The Eyes Bot" class="personal-project">
                 <div class="project-flex">

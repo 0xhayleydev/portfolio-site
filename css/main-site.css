@@ -132,6 +132,26 @@ body {
   src: url(../img/icons/game-maker.svg);
 }
 
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row h1 {
+  margin: 0 4px;
+}
+
+.project-filters {
+  padding: 4px;
+}
+
+.checkbox {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
 hr {
   color: var(--text-color);
   margin: 2% 40%;
