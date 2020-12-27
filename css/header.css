@@ -27,6 +27,16 @@
   vertical-align: middle;
 }
 
+.site-identity.text {
+  border: var(--testing-border-size) dashed darkblue;
+  display: inline-flex;
+  align-self: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  vertical-align: middle;
+  flex-direction: column;
+}
+
 .site-identity.site-logo {
   display: inline-block;
   padding-right: 0;
@@ -44,10 +54,20 @@
   border: var(--testing-border-size) dashed purple;
   font-size: 200%;
   display: inline-block;
-  text-align: center;
+  text-align: left;
   color: var(--text-color);
   text-decoration: none;
-  margin: 0;
+  margin: 0 5px;
+}
+
+.site-identity.site-tagline {
+  border: var(--testing-border-size) dashed purple;
+  font-size: 75%;
+  display: inline-block;
+  text-align: left;
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 5px;
 }
 
 .site-identity.site-title:hover {
