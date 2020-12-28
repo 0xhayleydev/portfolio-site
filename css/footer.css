@@ -1,32 +1,15 @@
-:root {
-  --footer-border: #000000;
-  --footer-background: #3C4043;
-  --footer-height: 5%;
-}
-
-.site-footer {
-  width: 100%;
-  height: var(--footer-height);
-  border: 4px solid var(--footer-border);
-  background-color: var(--footer-background);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  flex-wrap: wrap;
-}
-
-.footer-icon {
+#site-footer a {
   vertical-align: middle;
   font-size: 2em;
   text-decoration: none;
   color: var(--text-color);
+  margin: auto 1%;
 }
 
-.footer-icon:hover {
-  opacity: .7;
+#site-footer a:hover {
+  color: #1DCDFE;
 }
 
-.footer-content {
-  margin: 0px 20px;
+#site-footer hr {
+  margin: 2% 30%;
 }
