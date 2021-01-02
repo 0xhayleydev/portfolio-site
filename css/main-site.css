@@ -32,6 +32,78 @@ body {
   display: block;
 }
 
+.three-promo {
+  font-size: 0;
+}
+
+.three-promo.container {
+  position: relative;
+  min-width: 480px;
+  width: 33%;
+  max-width: 33%;
+  min-height: 270px;
+  height: 20vw;
+  display: inline-block;
+}
+
+.three-promo.image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.three-promo.image.top {
+  object-position: top;
+}
+
+.three-promo.image.bottom {
+  object-position: bottom;
+}
+
+.three-promo.info {
+  opacity: 0;
+  height: 100%;
+  max-width: 100%;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.three-promo.info > p {
+  word-wrap: break-word;
+  padding: 0;
+  margin: 5px;
+}
+
+.three-promo > h1 {
+  word-wrap: break-word;
+  padding: 0;
+  margin: 5px;
+  color: white;
+  text-decoration: underline;
+}
+
+.three-promo.container:hover .info {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.three-promo.container:hover .image {
+  opacity: .1;
+  transition: opacity .5s linear;
+}
+
 .flex-div {
   padding: 4px;
   justify-content: space-evenly;
