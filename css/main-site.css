@@ -34,6 +34,9 @@ body {
 
 .three-promo {
   font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .three-promo.container {
@@ -41,7 +44,7 @@ body {
   min-width: 480px;
   width: 33%;
   max-width: 33%;
-  min-height: 270px;
+  min-height: 360px;
   height: 20vw;
   display: inline-block;
 }
@@ -58,6 +61,7 @@ body {
   margin: 0;
   object-fit: cover;
   overflow: hidden;
+  transition: opacity .5s linear;
 }
 
 .three-promo.image.top {
@@ -71,6 +75,7 @@ body {
 .three-promo.info {
   opacity: 0;
   height: 100%;
+  width: 100%;
   max-width: 100%;
   font-size: medium;
   display: flex;
@@ -78,6 +83,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  transition: opacity .5s linear;
 }
 
 .three-promo.info > p {
@@ -96,7 +102,7 @@ body {
 
 .three-promo.container:hover .info {
   opacity: 1;
-  transition: opacity 1s linear;
+  transition: opacity .5s linear;
 }
 
 .three-promo.container:hover .image {
@@ -107,6 +113,7 @@ body {
 .flex-div {
   padding: 4px;
   justify-content: space-evenly;
+
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
