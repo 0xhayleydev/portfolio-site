@@ -41,9 +41,8 @@ body {
 
 .three-promo.container {
   position: relative;
-  min-width: 480px;
-  width: calc(var(--max-page-width) / 5);
-  max-width: calc(var(--max-page-width) / 5);
+  min-width: 360px;
+  max-width: calc(var(--max-page-width) / 3);
   min-height: 360px;
   height: 20vw;
   display: inline-block;
