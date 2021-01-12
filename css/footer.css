@@ -1,6 +1,6 @@
 #site-footer {
-  bottom:0;
-  position: absolute;
+  bottom: 0;
+  position: relative;
   min-width: var(--max-page-width);
 }
 
