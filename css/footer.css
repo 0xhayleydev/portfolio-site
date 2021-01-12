@@ -1,3 +1,9 @@
+#site-footer {
+  bottom:0;
+  position: absolute;
+  min-width: var(--max-page-width);
+}
+
 #site-footer a {
   vertical-align: middle;
   font-size: 2em;
@@ -11,5 +17,5 @@
 }
 
 #site-footer hr {
-  margin: 2% 30%;
+  margin: 2% 40%;
 }
