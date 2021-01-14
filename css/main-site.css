@@ -224,6 +224,10 @@ body {
   padding: 4px;
 }
 
+.filter-toggle {
+  display: inline-block;
+}
+
 .checkbox {
   display: inline-flex;
   flex-direction: column;
