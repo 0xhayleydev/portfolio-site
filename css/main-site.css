@@ -277,3 +277,18 @@ h1 {
 h2 {
   color: #1DCDFE;
 }
+
+.gap.small {
+  height: 10px;
+  display: block;
+}
+
+.gap.medium {
+  height: 20px;
+  display: block;
+}
+
+.gap.large {
+  height: 40px;
+  display: block;
+}

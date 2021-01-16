@@ -12,6 +12,7 @@ code {
 .project-container.item {
     display: inline;
     margin: 1%;
+    text-align: left;
 }
 
 .project-promo-image {
@@ -33,4 +34,8 @@ code {
     display: inline-block;
     width: 45%;
     vertical-align: middle;
+}
+
+h1, h2 {
+    margin-bottom: 0px;
 }
