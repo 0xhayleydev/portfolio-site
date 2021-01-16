@@ -1,6 +1,36 @@
 code {
     font-size: larger;
-    background-color: gray;
-    border: solid 2px darkgray;
+    background-color: darkslateblue;
     padding: 2px;
+}
+
+.project-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.project-container.item {
+    display: inline;
+    margin: 1%;
+}
+
+.project-promo-image {
+    border: solid 2px gray;
+    width: 100%;
+}
+
+.column-container {
+    width: 100%;
+}
+
+.column-container .column .item {
+    display: inline-block;
+    margin: 2%;
+    width: 100%;
+}
+
+.column-container .column {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
 }

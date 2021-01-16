@@ -5,9 +5,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@cdgamedev" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Hayley Davies - Template" />
-<meta property="og:description" content="The template page for Hayley Davies." />
-<meta property="og:url" content="https://hayleydavi.es/templates/template.html" />
+<meta property="og:title" content="Hayley Davies - The Eyes Bot" />
+<meta property="og:description" content="The Eyes Bot Project page for Hayley Davies." />
+<meta property="og:url" content="https://hayleydavi.es/projects/personal/the-eyes-bot" />
 <meta property="og:image" content="https://hayleydavi.es/img/site-logo.jpg" />
 
 <meta http-equiv="content-type" content="text/html" charset="utf-8"/>
@@ -39,64 +39,135 @@
         <!--HEADER-->
         <header id="header"></header>
         <!--HEADER END-->
-        
         <h1>The Eyes Bot</h1>
+        <h5>Last Updated: 16 Jan 2021</h5>
         <hr>
-        <img class="project-promo-image" src="/img/projects/the-eyes-bot-promo.png">
-        <h1>Bot Information:</h1>
-        <p>
-            Written in discord.py<br>
-            <br>
-            The bot has one function, reacting to messages which contain the 👀 emote.<br>
-            <br>
-            The bot also replies to messages which it is tagged in and contain certain content, for example, saying <code>@The 👀 Bot#2810</code> good bot will cause him DM you.<br>
-            <br>
-            This was created more as a joke for a private server but everyone loved it and wanted to add it to their servers too - hence why I'm making it availible here.<br>
-            <br>
-            Overall, it's a fun, memey bot which people seem to really love!<br>
-            <br>
-            If you run into any issues using the bot, please join my discord and I can resolve your issues :)
-        </p>
+        <span class="project-container">
+            <div class="project-container item">
+                <img class="project-promo-image" src="/img/projects/the-eyes-bot-promo.png">
+            </div>
+            <div class="project-container item">
+                <h1>Information:</h1>
+                <p>
+                    Written in discord.py<br>
+                    <br>
+                    The bot has one function, reacting to messages which contain the 👀 emote.<br>
+                    <br>
+                    The bot also replies to messages which it is tagged in and contain certain content, for example, saying <code>@The 👀 Bot#2810</code> good bot will cause him DM you.<br>
+                    <br>
+                    This was created more as a joke for a private server but everyone loved it and wanted to add it to their servers too - hence why I'm making it availible here.<br>
+                    <br>
+                    Overall, it's a fun, memey bot which people seem to really love!<br>
+                    <br>
+                    If you run into any issues using the bot, please join my discord and I can resolve your issues :)<br>
+                    <br>
+                    In one of our discord servers, we constantly use the 👀 emoji, to the point where we started using the 👀 reaction to messages too.<br>
+                    The bot started with the idea to make our lives easier by automatiacally adding the 👀 emoji. This meant that we didn't have to go and find it.<br>
+                </p>
+            </div>
+        </span>
 
-        <h1>Commands:</h1>
-        <p>
-            <code>👀help</code>
-            This will show the help dialogue.<br>
-            <br>
-            <code>👀blacklist</code><br>
-            Add yourself to the blacklist for the bot. This will prevent me from sending you Direct Messages.<br>
-            <br>
-            <code>👀whitelist</code><br>
-            Remove yourself to the blacklist for the bot. This will allow me to send you Direct Messages.<br>
-            <br>
-            <code>👀allowreplies true|false</code><br>
-            This will allow me to send messages into the server. Default: True.<br>
-            <br>
-            <code>👀allowreactions true|false</code><br>
-            Allow bot to add reactions to messages. Default: True.<br>
-            <br>
-            <code>👀allowdms true|false</code><br>
-            This will allow me to send direct messages to users when, for example, they say 'good bot' to me. Default: True.<br>
-            <br>
-            <code>👀allowreactions true|false</code><br>
-            Allow bot to add reactions to messages. Default: True.<br>
-            <br>
-            <code>👀allowedits true|false</code><br>
-            This will allow me to change reactions when messages are edited. Disabling this saves server capacity and helps keep latency low. Default: False.<br>
-            <br>
-            <code>👀reset</code><br>
-            This will reset the config which has been set up.
-        </p>
-        <p>
-            In one of our discord servers, we constantly use the 👀 emoji, to the point where we started using the 👀 reaction to messages too.<br>
-            The bot started with the idea to make our lives easier by automatiacally adding the 👀 emoji. This meant that we didn't have to go and find it.<br>
-            <br>
-            <b>Is it dumb?</b> Yes. It's pretty dumb and memey and plays to an inside joke.<br>
-            <b>Is there a market for it?</b> Yes. After around a month of use, the bot is in around 30 servers, of which, I'm only in 12 of.<br>
-        </p>
+        <div class="column-container">
+            <h1>Commands:</h1>
+            <span class="column">
+                <h2>User Commands (Direct Messages)</h2>
+                <div class="item">
+                    <code>👀help</code><br>
+                    This will show the help dialogue.<br>
+                </div>
+                <div class="item">
+                    <code>👀blacklist</code><br>
+                    Add yourself to the blacklist for the bot. This will prevent me from sending you Direct Messages.<br>
+                </div>
+                <div class="item">
+                    <code>👀whitelist</code><br>
+                    Remove yourself to the blacklist for the bot. This will allow me to send you Direct Messages.<br>
+                </div>
+            </span>
+            <div class="column column-container">
+                <h2>Server Commands (Server Admins)</h2>
+                <span class="column">
+                    <div class="item">
+                        <code>👀allowreplies true|false</code><br>
+                        This will allow me to send messages into the server.<br>
+                        Default: True
+                    </div>
+                    <div class="item">
+                        <code>👀allowreactions true|false</code><br>
+                        Allow bot to add reactions to messages.<br>
+                        Default: True
+                    </div>
+                    <div class="item">
+                        <code>👀allowdms true|false</code><br>
+                        This will allow me to send direct messages to users when, for example, they say 'good bot' to me.<br>
+                        Default: True
+                    </div>
+                </span>
+                <span class="column">
+                    <div class="item">
+                        <code>👀allowreactions true|false</code><br>
+                        Allow bot to add reactions to messages.<br>
+                        Default: True
+                    </div>
+                    <div class="item">
+                        <code>👀allowedits true|false</code><br>
+                        This will allow me to change reactions when messages are edited. Disabling this saves server capacity and helps keep latency low.<br>
+                        Default: False
+                    </div>
+                    <div class="item">
+                        <code>👀reset</code><br>
+                        This will reset the config which has been set up.
+                    </div>
+                </span>
+            </div>
+        </div>
 
-        <a href="https://github.com/cdgamedev/the-eyes-bot">Source Code</a>
-        <a href="https://top.gg/bot/769211890407833610#/">Add Bot to Your Server</a>
+        <div class="column-container">
+            <h1>Message Responses:</h1>
+            <span class="column">
+                <h2>User:</h2>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 good bot</code>"<br>
+                    Response: "<code>👀 Thanks for calling me a good bot! 👀<br>
+                    If you'd like me on your server, add me here: <a href="https://top.gg/bot/769211890407833610">https://top.gg/bot/769211890407833610</a>.<br>
+                    If you'd like to stop recieving these messages, please reply with `👀blacklist</code>"
+                </div>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 best bot</code>"<br>
+                    Response: "<code>👀 Thanks for calling me a good bot! 👀<br>
+                    If you'd like me on your server, add me here: <a href="https://top.gg/bot/769211890407833610">https://top.gg/bot/769211890407833610</a>.<br>
+                    If you'd like to stop recieving these messages, please reply with `👀blacklist</code>"
+                </div>
+            </span>
+            <span class="column">
+                <h2>Author:</h2>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 good bot</code>"<br>
+                    Response: "<code>I know mother, you raised me well. 👀</code>"
+                </div>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 best bot</code>"<br>
+                    Response: "<code>I know mother, you raised me well. 👀</code>"
+                </div>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 bad bot</code>"<br>
+                    Response: "<code>How can you lie to your child like that mOtHeR?! 👀</code>"
+                </div>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 i love you</code>"<br>
+                    Response: "<code>I love you too mother. 👀</code>"
+                </div>
+                <div class="item">
+                    Message: "<code>@The 👀 Bot#2810 i love you more</code>"<br>
+                    Response: "<code>No, I love you more mother. 👀</code>"
+                </div>
+            </span>
+        </div>
+        
+        <h1>Links:</h1>
+        <a href="https://github.com/cdgamedev/the-eyes-bot">The 👀 Bot Source Code</a><br>
+        <a href="https://top.gg/bot/769211890407833610#/">Add The 👀 Bot To Your Server</a><br>
+        <a href="https://top.gg/bot/769211890407833610/vote">Vote For The 👀 Bot</a>
 
         <!--FOOTER-->
         <footer id="footer"></footer>

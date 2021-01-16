@@ -40,529 +40,535 @@
         <!--HEADER END-->
         
         <div class="site-body">
-            <h1>
-                Projects (WIP)
-                <span class="filter-toggle">
-                    <i class="fas fa-sort-down" id="show-filters" onclick="toggleFilters()"></i>
-                    <i class="fas fa-sort-up" id="hide-filters" onclick="toggleFilters()"></i>
+            <span id="heading">
+                <h1>
+                    Projects (WIP)
+                    <span class="filter-toggle">
+                        <i class="fas fa-sort-down" id="show-filters" onclick="toggleFilters()"></i>
+                        <i class="fas fa-sort-up" id="hide-filters" onclick="toggleFilters()"></i>
+                    </span>
+                </h1>
+                <div class="project-filters">
+                    <div class="checkbox">
+                        <h3>Project Type</h3>
+                        <div id="filter-type">
+                            <div class="checkbox">
+                                <input type="checkbox" id="personal-project" onclick="toggleClassVisibility(id)" checked="checked">
+                                <label for="personal-project">Personal Projects</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="college-project" onclick="toggleClassVisibility(id)" checked="checked">
+                                <label for="college-project">College Projects</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="university-project" onclick="toggleClassVisibility(id)" checked="checked">
+                                <label for="university-project">University Projects</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span id="small-showcase">
+                <div>
+                    <hr>
+                    <h1>Games</h1>
+                    <div class="flex-div">
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/864423?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">Tonnow Yn-Mysk by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">
+                                    <p>Tonnow Yn-Mysk</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                University: Year 1<br>
+                                (2020)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/500977?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/wgj-week-118">Weekly Game Jam Week 118 - Spaceship by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/wgj-week-118">
+                                    <p>Spaceship</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                Personal: Game Jam<br>
+                                (2019)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/435956?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/flight-attendant-simulator">Flight Attendant Simulator by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/flight-attendant-simulator">
+                                    <p>Flight Attendant Simulator</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                College: Year 2<br>
+                                (2019)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/429520?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/bacon-race">Bacon Race (Falmouth Game Jam 2019) by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/bacon-race">
+                                    <p>Bacon Race</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                College: Game Jam<br>
+                                (2019)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/348062?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/locked-in">Locked In by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/locked-in">
+                                    <p>Locked In</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                College: Year 2<br>
+                                (2018)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/259149?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
+                                    <a href="https://cdgamedev.itch.io/joes-conquest">Joe's Conquest by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/joes-conquest">
+                                    <p>Joe's Conquest</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="fab fa-unity tech-icon small"></i>
+                            </span>
+                            <p>
+                                College: Year 1<br>
+                                (2018)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <iframe frameborder="0" src="https://itch.io/embed/572884?bg_color=1b1b1b&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=333333" width="208" height="167">
+                                    <a href="https://cdgamedev.itch.io/brick-breaker">Brick Breaker by Hayley Davies</a>
+                                </iframe>
+                                <a href="https://cdgamedev.itch.io/brick-breaker">
+                                    <p>Brick Breaker</p>
+                                </a>
+                                <img src="/img/icons/game-maker.svg" class="tech-icon small">
+                            </span>
+                            <p>
+                                Personal<br>
+                                (2016)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                    <h1>Other</h1>
+                    <div class="flex-div">
+                        <div class="flex-content">
+                            <span>
+                                <img src="/img/projects/cdgamedev-github-io-promo.png">
+                                <a href="https://github.com/cdgamedev/cdgamedev.github.io">
+                                    <p>hayleydavi.es</p>
+                                </a>
+                                <i class="devicon-html5-plain tech-icon small"></i>
+                                <i class="devicon-css3-plain tech-icon small"></i>
+                                <i class="devicon-javascript-plain tech-icon small"></i>
+                            </span>
+                            <p>
+                                Website<br>
+                                Personal<br>
+                                (2020)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <img src="/img/projects/tinkering-audio-promo.png">
+                                <a href="https://github.com/cdgamedev/comp120-tinkering-audio-final-submission">
+                                    <p>Tinkering Audio</p>
+                                </a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="devicon-visualstudio-plain tech-icon small"></i>
+                            </span>
+                            <p>
+                                Software<br>
+                                University: Year 1<br>
+                                (2020)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <img src="/img/projects/the-eyes-bot-promo.png">
+                                <a href="https://github.com/cdgamedev/the-eyes-bot"><p>The Eyes Bot</p></a>
+                                <i class="devicon-python-plain tech-icon small"></i>
+                                <i class="devicon-linux-plain tech-icon small"></i>
+                            </span>
+                            <p>
+                                Discord Bot<br>
+                                Personal<br>
+                                (2020)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <img src="/img/projects/tinkering-graphics-promo.jpg">
+                                <a href="https://github.com/cdgamedev/comp120-tinkering-graphics-final-submission"><p>Tinkering Graphics</p></a>
+                                <i class="devicon-csharp-line-wordmark tech-icon small"></i>
+                                <i class="devicon-visualstudio-plain tech-icon small"></i>
+                            </span>
+                            <p>
+                                Software<br>
+                                University: Year 1<br>
+                                (2020)
+                            </p>
+                        </div>
+                        <div class="flex-content">
+                            <span>
+                                <img src="/img/projects/nightly-profit-mod-promo.png">
+                                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1396403258"><p>Nightly Profit Mod</p></a>
+                            </span>
+                            <div>
+                                <i class="devicon-html5-plain tech-icon small"></i>
+                                <i class="devicon-css3-plain tech-icon small"></i>
+                                <i class="devicon-javascript-plain tech-icon small"></i>
+                            </div>
+                            <p>
+                                Mod: Startup Company<br>
+                                Personal<br>
+                                (2018)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span id="large-showcase">
+                <span id="Hayley Davies Portfolio" class="personal-project">
+                    <hr>
+                    <span class="year-2020">
+                        <div class="project-flex">
+                            <div class="project-details">
+                                <a class="project-title" href="/projects/website.html">
+                                    <h2>Hayley Davi.es (2020)</h2>
+                                    <h3>Personal: Website</h3>
+                                    <img src="/img/projects/cdgamedev-github-io-promo.png" alt="Portfolio Site Image">
+                                </a>
+                                <div class="tech-icon project">
+                                    <i class="devicon-html5-plain-wordmark"></i>
+                                    <i class="devicon-css3-plain-wordmark"></i>
+                                    <i class="devicon-javascript-plain"></i><br>
+                                    <i class="devicon-github-original"></i>
+                                </div>
+                            </div>
+                            <div class="project-summary">
+                                <p>
+                                    This project began after disliking certain aspects of the WordPress functionalities (mainly, embeds/iframes).<br>
+                                    I decided it would be a cool idea to make my own website and try and do that from scratch.<br>
+                                    After speaking to <a href="https://www.christopherprobertson.com/">Christopher Robertson</a> - who'd done the same thing prior to me, I began work on the site you're on right now!
+                                </p>
+                                <a href="https://github.com/cdgamedev/cdgamedev.github.io">Website Source Code</a>
+                            </div>
+                        </div>
+                    </span>
                 </span>
-            </h1>
-            <div class="project-filters">
-                <div class="checkbox">
-                    <h3>Project Type</h3>
-                    <div id="filter-type">
-                        <div class="checkbox">
-                            <input type="checkbox" id="personal-project" onclick="toggleClassVisibility(id)" checked="checked">
-                            <label for="personal-project">Personal Projects</label>
+                <span id="The Eyes Bot" class="personal-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <a class="project-title" href="/projects/the-eyes-bot.html">
+                                <h2>The 👀 Bot (2020)</h2>
+                                <h3>Personal: Discord Bot</h3>
+                                <img src="/img/projects/the-eyes-bot-promo.png" alt="The Eyes Bot Icon Image">
+                            </a>
+                            <div class="tech-icon project">
+                                <i class="devicon-python-plain-wordmark"></i>
+                                <i class="devicon-linux-plain"></i>
+                                <i class="devicon-git-plain-wordmark"></i>
+                            </div>
                         </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="college-project" onclick="toggleClassVisibility(id)" checked="checked">
-                            <label for="college-project">College Projects</label>
+                        <div class="project-summary">
+                            <p>
+                                This project began life as a simple idea, reacting with "👀" to a message containing "👀".<br>
+                                The project is simple but offers a lot of expandability.<br>
+                                I plan on working on this project more in the coming weeks to add more functionality to the bot.<br>
+                                The bot is run on CentOS and hosted via a VPS provided by <a href="https://www.vultr.com/?ref=8711243">Vultr</a>.
+                            </p>
+                            <a href="https://github.com/cdgamedev/the-eyes-bot">The 👀 Bot Source Code</a><br>
+                            <a href="https://top.gg/bot/769211890407833610">Add The 👀 Bot to Your Server</a>
                         </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="university-project" onclick="toggleClassVisibility(id)" checked="checked">
-                            <label for="university-project">University Projects</label>
-                        </div>
                     </div>
-                </div>
-            </div>
-            <div>
-                <hr>
-                <h1>Games</h1>
-                <div class="flex-div">
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/864423?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">Tonnow Yn-Mysk by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">
-                                <p>Tonnow Yn-Mysk</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            University: Year 1<br>
-                            (2020)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/500977?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/wgj-week-118">Weekly Game Jam Week 118 - Spaceship by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/wgj-week-118">
-                                <p>Spaceship</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            Personal: Game Jam<br>
-                            (2019)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/435956?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/flight-attendant-simulator">Flight Attendant Simulator by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/flight-attendant-simulator">
-                                <p>Flight Attendant Simulator</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            College: Year 2<br>
-                            (2019)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/429520?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/bacon-race">Bacon Race (Falmouth Game Jam 2019) by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/bacon-race">
-                                <p>Bacon Race</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            College: Game Jam<br>
-                            (2019)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/348062?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/locked-in">Locked In by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/locked-in">
-                                <p>Locked In</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            College: Year 2<br>
-                            (2018)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/259149?border_width=0&amp;bg_color=1B1B1B&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=000000" width="206" height="165">
-                                <a href="https://cdgamedev.itch.io/joes-conquest">Joe's Conquest by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/joes-conquest">
-                                <p>Joe's Conquest</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="fab fa-unity tech-icon small"></i>
-                        </span>
-                        <p>
-                            College: Year 1<br>
-                            (2018)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <iframe frameborder="0" src="https://itch.io/embed/572884?bg_color=1b1b1b&amp;fg_color=FFFFFF&amp;link_color=1DCDFE&amp;border_color=333333" width="208" height="167">
-                                <a href="https://cdgamedev.itch.io/brick-breaker">Brick Breaker by Hayley Davies</a>
-                            </iframe>
-                            <a href="https://cdgamedev.itch.io/brick-breaker">
-                                <p>Brick Breaker</p>
-                            </a>
-                            <img src="/img/icons/game-maker.svg" class="tech-icon small">
-                        </span>
-                        <p>
-                            Personal<br>
-                            (2016)
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <hr>
-                <h1>Other</h1>
-                <div class="flex-div">
-                    <div class="flex-content">
-                        <span>
-                            <img src="/img/projects/cdgamedev-github-io-promo.png">
-                            <a href="https://github.com/cdgamedev/cdgamedev.github.io">
-                                <p>hayleydavi.es</p>
-                            </a>
-                            <i class="devicon-html5-plain tech-icon small"></i>
-                            <i class="devicon-css3-plain tech-icon small"></i>
-                            <i class="devicon-javascript-plain tech-icon small"></i>
-                        </span>
-                        <p>
-                            Website<br>
-                            Personal<br>
-                            (2020)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <img src="/img/projects/tinkering-audio-promo.png">
-                            <a href="https://github.com/cdgamedev/comp120-tinkering-audio-final-submission">
-                                <p>Tinkering Audio</p>
-                            </a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="devicon-visualstudio-plain tech-icon small"></i>
-                        </span>
-                        <p>
-                            Software<br>
-                            University: Year 1<br>
-                            (2020)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <img src="/img/projects/the-eyes-bot-promo.png">
-                            <a href="https://github.com/cdgamedev/the-eyes-bot"><p>The Eyes Bot</p></a>
-                            <i class="devicon-python-plain tech-icon small"></i>
-                            <i class="devicon-linux-plain tech-icon small"></i>
-                        </span>
-                        <p>
-                            Discord Bot<br>
-                            Personal<br>
-                            (2020)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <img src="/img/projects/tinkering-graphics-promo.jpg">
-                            <a href="https://github.com/cdgamedev/comp120-tinkering-graphics-final-submission"><p>Tinkering Graphics</p></a>
-                            <i class="devicon-csharp-line-wordmark tech-icon small"></i>
-                            <i class="devicon-visualstudio-plain tech-icon small"></i>
-                        </span>
-                        <p>
-                            Software<br>
-                            University: Year 1<br>
-                            (2020)
-                        </p>
-                    </div>
-                    <div class="flex-content">
-                        <span>
-                            <img src="/img/projects/nightly-profit-mod-promo.png">
-                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1396403258"><p>Nightly Profit Mod</p></a>
-                        </span>
-                        <div>
-                            <i class="devicon-html5-plain tech-icon small"></i>
-                            <i class="devicon-css3-plain tech-icon small"></i>
-                            <i class="devicon-javascript-plain tech-icon small"></i>
-                        </div>
-                        <p>
-                            Mod: Startup Company<br>
-                            Personal<br>
-                            (2018)
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <span id="Hayley Davies Portfolio" class="personal-project">
-                <hr>
-                <span class="year-2020">
+                </span>
+                <span id="Tinkering Audio" class="university-project">
+                    <hr>
                     <div class="project-flex">
                         <div class="project-details">
                             <div class="project-title">
-                                <h2>Hayley Davi.es (2020)</h2>
-                                <h3>Personal: Website</h3>
-                                <img src="/img/projects/cdgamedev-github-io-promo.png" alt="Portfolio Site Image">
+                                <h2>Tinkering Audio<br>(2020)</h2>
+                                <h3>Falmouth University: Year 1<br>(COMP120)</h3>
+                                <img src="/img/projects/tinkering-audio-promo.png" alt="Tinkering Audio Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="devicon-visualstudio-plain-wordmark"></i>
+                                <i class="devicon-git-plain-wordmark"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                This project was developed as the Second Assignment of the COMP120 moodule at Falmouth University.<br>
+                                The project assigned was to make a program which manipulated audio.<br>
+                                Of the 4 contracts, we chose Contract 2: Ambience Audio Generation.<br>
+                                I worked along side my pair programmer, using Visual Studio 2019, C# and git in order to complete this project.<br>
+                                Overall for the project, we scored <strong>69/100</strong> marks which is a solid 2:1 and 1 mark off a 1st.<br>
+                                <br>
+                                <strong>Credits: Daisy Baker</strong>
+                            </p>
+                            <a href="https://github.com/cdgamedev/comp120-tinkering-audio-final-submission">Tinkering Audio Source Code</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Tonnow Yn-Mysk" class="university-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Tonnow Yn-Mysk (2020)</h2>
+                                <h3>Falmouth University: Year 1<br>(GAM110)</h3>
+                                <img src="/img/projects/tonnow-yn-mysk-promo.png" alt="Tonnow Yn-Mysk Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                                <i class="devicon-git-plain-wordmark"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                This project was developed as part of GAM110's Creative Card Jam during Study Block 1 at Falmouth University, which lasted for 4 weeks.<br>
+                                The theme for this jam was Cornish Mythology and our project Modifier was Escape.<br>
+                                With that in mind, we decided to make a game surrounding the Cornish mythological creature called the Morgawr.<br>
+                                The game sets you as a humble Cornish fisherman.<br>
+                                You must catch as many fish as you can and escape from the clutches of the Morgawr, all before nightfall, where you will be able to upgrade your small fishing vessel ready for the next day.<br>
+                                <br>
+                                <strong>Credits: Adam Arnett, Alistar Hambly, Ben Hooper, Ben Robinson, George Chandler, Joe Dawes, Michael Sollars, Sho Callanan and Tega Amrore</strong>
+                            </p>
+                            <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">Tonnow Yn-Mysk Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Tinkering Graphics" class="university-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Tinkering Graphics<br>(2020)</h2>
+                                <h3>Falmouth University: Year 1<br>(COMP120 - Assignment 1)</h3>
+                                <img src="/img/projects/tinkering-graphics-promo.jpg" alt="Tinkering Graphics Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="devicon-visualstudio-plain-wordmark"></i>
+                                <i class="devicon-git-plain-wordmark"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                This project was developed as the First Assignment of the COMP120 moodule at Falmouth University.<br>
+                                The project assigned was to make a program which manipulated graphics.<br>
+                                Of the 6 contracts, we chose Contract 5: Novel Snapchat Filter.<br>
+                                I worked along side my pair programmer, using Visual Studio 2019, C# and git in order to complete this project.<br>
+                                Overall for the project, we scored <strong>66/100</strong> marks which is a solid 2:1.<br>
+                                <br>
+                                <strong>Credits: Ross Hewitt</strong>
+                            </p>
+                            <a href="https://github.com/cdgamedev/comp120-tinkering-graphics-final-submission">Tinkering Graphics Source Code</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Spaceship" class="personal-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Spaceship (2019)</h2>
+                                <h3>Personal: Game Jam</h3>
+                                <img src="/img/projects/spaceship-promo.png" alt="Spaceship Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                Delve into this simplistic, 8-bit spaceship game;<br>
+                                Fight hordes of enemy ships and upgrade your ship until you're name is known as an unstoppable force in the galaxy.<br>
+                                The game, simply called "Spaceship" pits you against enemies in the depths of space.<br>
+                                How far will <i>you</i> get?<br>
+                                This project was developed as participation in the Weekly Game Jam Week 118.<br>
+                                <br>
+                                <strong>Credits: Pactrick De Arteaga</strong>
+                            </p>
+                            <a href="https://cdgamedev.itch.io/wgj-week-118">Spaceship Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Flight Attendant Simulator" class="college-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Flight Attendant<br>Simulator (2019)</h2>
+                                <h3>Priestley College: Year 2<br>(Assignment 2)</h3>
+                                <img src="/img/projects/flight-attendant-simulator-promo.jpg" alt="Flight Attendant Simulator Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied.<br>
+                                In this fast paced VR experience, the wrong order could be a matter of life or death.<br>
+                                Only time will tell if you’re up to the challenge.<br>
+                                This project was developed during my time at Priestley College.<br>
+                                <br>
+                                <strong>Credits: Josh Cornelius, Louis Muir and Reece Horsefield</strong>
+                            </p>
+                            <a href="https://cdgamedev.itch.io/flight-attendant-simulator">Flight Attendant Simulator Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Bacon Race" class="college-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Bacon Race (2019)</h2>
+                                <h3>Priestley College: Year 2<br>(Falmouth Game Jam)</h3>
+                                <img src="/img/projects/bacon-race-promo.png" alt="Bacon Race Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                The theme for this game jam was "Bacon" so we decided to make a game about a not-so-flaccid David Cameron chasing a pig named Brexit - the pure political motivator.<br>
+                                I was the main programmer for this project, we worked in a team of 6 people.<br>
+                                Everything you see was made in about 15 hours over the course of 3 days, most of which was spent without an internet connection.<br>
+                                <br>
+                                <strong>Credits: Bartosz Kościółek, Elliot Griffiths, Jack Keane, Matthew Roberts, Tom Goodier and Zac Cooper</strong>
+                            </p>
+                            <a href="https://cdgamedev.itch.io/bacon-race">Bacon Race Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Locked In" class="college-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Locked In (2018)</h2>
+                                <h3>Priestley College: Year 2<br>(Assignment 1)</h3>
+                                <img src="/img/projects/locked-in-promo.png" alt="Locked In Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                This game was made in part by three students studying at Priestley College.<br>
+                                The idea we had was similar to the "White Bear" episode of Black Mirror - where you are a criminal and this is your punishment; rather than prison, you are <i>Locked In</i> to an internal loop of repeating the same thing over and over.<br>
+                                <i>Can you break the cycle?</i><br>
+                                <br>
+                                <strong>Credits: Reece Horsefield, Zac Pridden</strong>
+                            </p>
+                            <a href="https://cdgamedev.itch.io/locked-in">Locked In Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Joe's Conquest" class="college-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Joe's Conquest (2018)</h2>
+                                <h3>Priestley College: Year 1<br>(The Game Project)</h3>
+                                <img src="/img/projects/joes-conquest-promo.png" alt="Joe's Conquest Icon Image">
+                            </div>
+                            <div class="tech-icon project">
+                                <i class="devicon-csharp-plain-wordmark"></i>
+                                <i class="fab fa-unity"></i>
+                            </div>
+                        </div>
+                        <div class="project-summary">
+                            <p>
+                                As part of my college course I had to make a 2D Platfomer game within Unity.<br>
+                                After being trapped in a computer by a high school bully and notorious hacker Adam, Joe must find his way through the computer and escape.<br>
+                                He must rescue his love, Laura, from Adam's clutches.<br>
+                                But will he do it?
+                            </p>
+                            <a href="https://cdgamedev.itch.io/joes-conquest">Joe's Conquest Download</a>
+                        </div>
+                    </div>
+                </span>
+                <span id="Nightly Profit Mod" class="personal-project">
+                    <hr>
+                    <div class="project-flex">
+                        <div class="project-details">
+                            <div class="project-title">
+                                <h2>Nightly Profit Mod<br>(2018)</h2>
+                                <h3>Personal: Mod<br>(Startup Company)</h3>
+                                <img src="/img/projects/nightly-profit-mod-promo.png" alt="Nightly Profit Mod Icon Image">
                             </div>
                             <div class="tech-icon project">
                                 <i class="devicon-html5-plain-wordmark"></i>
                                 <i class="devicon-css3-plain-wordmark"></i>
                                 <i class="devicon-javascript-plain"></i><br>
-                                <i class="devicon-github-original"></i>
                             </div>
                         </div>
                         <div class="project-summary">
                             <p>
-                                This project began after disliking certain aspects of the WordPress functionalities (mainly, embeds/iframes).<br>
-                                I decided it would be a cool idea to make my own website and try and do that from scratch.<br>
-                                After speaking to <a href="https://www.christopherprobertson.com/">Christopher Robertson</a> - who'd done the same thing prior to me, I began work on the site you're on right now!
+                                <i>Are you tired of using a calculator to figure out how much money your company is making/losing from its services? Want a way to easily find it out?</i><br>
+                                Now you can with the Nightly Profit Mod.<br>
+                                This mod creates a new page, showcasing how much money you are making Nightly.<br>
+                                (The mod only calculates how much you make from income on services, how much you spend on servers, staff wages and corporate benefits. It doesn't take into account things like buying furniture or paying one off staff fees when they start working for you).<br>
+                                The mod displays the profit in a new format; GRAPHS, making the old TABLE view obsolete (and thus this has been removed), but I'm sure you won't miss that mess of a display method.<br>
+                                You can also choose how many days of data you want to show, with the options being: 3 Days/5 Days/1 Week/2 Weeks/1 Month /2 Months/1 Year.
                             </p>
-                            <a href="https://github.com/cdgamedev/cdgamedev.github.io">Website Source Code</a>
+                            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1396403258&searchtext=">Nightly Profit Mod Workshop Page</a>
                         </div>
                     </div>
                 </span>
-            </span>
-            <span id="The Eyes Bot" class="personal-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>The 👀 Bot (2020)</h2>
-                            <h3>Personal: Discord Bot</h3>
-                            <img src="/img/projects/the-eyes-bot-promo.png" alt="The Eyes Bot Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-python-plain-wordmark"></i>
-                            <i class="devicon-linux-plain"></i>
-                            <i class="devicon-git-plain-wordmark"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            This project began life as a simple idea, reacting with "👀" to a message containing "👀".<br>
-                            The project is simple but offers a lot of expandability.<br>
-                            I plan on working on this project more in the coming weeks to add more functionality to the bot.<br>
-                            The bot is run on CentOS and hosted via a VPS provided by <a href="https://www.vultr.com/?ref=8711243">Vultr</a>.
-                        </p>
-                        <a href="https://github.com/cdgamedev/the-eyes-bot">The 👀 Bot Source Code</a><br>
-                        <a href="https://top.gg/bot/769211890407833610">Add The 👀 Bot to Your Server</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Tinkering Audio" class="university-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Tinkering Audio<br>(2020)</h2>
-                            <h3>Falmouth University: Year 1<br>(COMP120)</h3>
-                            <img src="/img/projects/tinkering-audio-promo.png" alt="Tinkering Audio Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="devicon-visualstudio-plain-wordmark"></i>
-                            <i class="devicon-git-plain-wordmark"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            This project was developed as the Second Assignment of the COMP120 moodule at Falmouth University.<br>
-                            The project assigned was to make a program which manipulated audio.<br>
-                            Of the 4 contracts, we chose Contract 2: Ambience Audio Generation.<br>
-                            I worked along side my pair programmer, using Visual Studio 2019, C# and git in order to complete this project.<br>
-                            Overall for the project, we scored <strong>69/100</strong> marks which is a solid 2:1 and 1 mark off a 1st.<br>
-                            <br>
-                            <strong>Credits: Daisy Baker</strong>
-                        </p>
-                        <a href="https://github.com/cdgamedev/comp120-tinkering-audio-final-submission">Tinkering Audio Source Code</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Tonnow Yn-Mysk" class="university-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Tonnow Yn-Mysk (2020)</h2>
-                            <h3>Falmouth University: Year 1<br>(GAM110)</h3>
-                            <img src="/img/projects/tonnow-yn-mysk-promo.png" alt="Tonnow Yn-Mysk Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                            <i class="devicon-git-plain-wordmark"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            This project was developed as part of GAM110's Creative Card Jam during Study Block 1 at Falmouth University, which lasted for 4 weeks.<br>
-                            The theme for this jam was Cornish Mythology and our project Modifier was Escape.<br>
-                            With that in mind, we decided to make a game surrounding the Cornish mythological creature called the Morgawr.<br>
-                            The game sets you as a humble Cornish fisherman.<br>
-                            You must catch as many fish as you can and escape from the clutches of the Morgawr, all before nightfall, where you will be able to upgrade your small fishing vessel ready for the next day.<br>
-                            <br>
-                            <strong>Credits: Adam Arnett, Alistar Hambly, Ben Hooper, Ben Robinson, George Chandler, Joe Dawes, Michael Sollars, Sho Callanan and Tega Amrore</strong>
-                        </p>
-                        <a href="https://cdgamedev.itch.io/tonnow-yn-mysk">Tonnow Yn-Mysk Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Tinkering Graphics" class="university-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Tinkering Graphics<br>(2020)</h2>
-                            <h3>Falmouth University: Year 1<br>(COMP120 - Assignment 1)</h3>
-                            <img src="/img/projects/tinkering-graphics-promo.jpg" alt="Tinkering Graphics Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="devicon-visualstudio-plain-wordmark"></i>
-                            <i class="devicon-git-plain-wordmark"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            This project was developed as the First Assignment of the COMP120 moodule at Falmouth University.<br>
-                            The project assigned was to make a program which manipulated graphics.<br>
-                            Of the 6 contracts, we chose Contract 5: Novel Snapchat Filter.<br>
-                            I worked along side my pair programmer, using Visual Studio 2019, C# and git in order to complete this project.<br>
-                            Overall for the project, we scored <strong>66/100</strong> marks which is a solid 2:1.<br>
-                            <br>
-                            <strong>Credits: Ross Hewitt</strong>
-                        </p>
-                        <a href="https://github.com/cdgamedev/comp120-tinkering-graphics-final-submission">Tinkering Graphics Source Code</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Spaceship" class="personal-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Spaceship (2019)</h2>
-                            <h3>Personal: Game Jam</h3>
-                            <img src="/img/projects/spaceship-promo.png" alt="Spaceship Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            Delve into this simplistic, 8-bit spaceship game;<br>
-                            Fight hordes of enemy ships and upgrade your ship until you're name is known as an unstoppable force in the galaxy.<br>
-                            The game, simply called "Spaceship" pits you against enemies in the depths of space.<br>
-                            How far will <i>you</i> get?<br>
-                            This project was developed as participation in the Weekly Game Jam Week 118.<br>
-                            <br>
-                            <strong>Credits: Pactrick De Arteaga</strong>
-                        </p>
-                        <a href="https://cdgamedev.itch.io/wgj-week-118">Spaceship Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Flight Attendant Simulator" class="college-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Flight Attendant<br>Simulator (2019)</h2>
-                            <h3>Priestley College: Year 2<br>(Assignment 2)</h3>
-                            <img src="/img/projects/flight-attendant-simulator-promo.jpg" alt="Flight Attendant Simulator Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied.<br>
-                            In this fast paced VR experience, the wrong order could be a matter of life or death.<br>
-                            Only time will tell if you’re up to the challenge.<br>
-                            This project was developed during my time at Priestley College.<br>
-                            <br>
-                            <strong>Credits: Josh Cornelius, Louis Muir and Reece Horsefield</strong>
-                        </p>
-                        <a href="https://cdgamedev.itch.io/flight-attendant-simulator">Flight Attendant Simulator Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Bacon Race" class="college-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Bacon Race (2019)</h2>
-                            <h3>Priestley College: Year 2<br>(Falmouth Game Jam)</h3>
-                            <img src="/img/projects/bacon-race-promo.png" alt="Bacon Race Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            The theme for this game jam was "Bacon" so we decided to make a game about a not-so-flaccid David Cameron chasing a pig named Brexit - the pure political motivator.<br>
-                            I was the main programmer for this project, we worked in a team of 6 people.<br>
-                            Everything you see was made in about 15 hours over the course of 3 days, most of which was spent without an internet connection.<br>
-                            <br>
-                            <strong>Credits: Bartosz Kościółek, Elliot Griffiths, Jack Keane, Matthew Roberts, Tom Goodier and Zac Cooper</strong>
-                        </p>
-                        <a href="https://cdgamedev.itch.io/bacon-race">Bacon Race Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Locked In" class="college-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Locked In (2018)</h2>
-                            <h3>Priestley College: Year 2<br>(Assignment 1)</h3>
-                            <img src="/img/projects/locked-in-promo.png" alt="Locked In Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            This game was made in part by three students studying at Priestley College.<br>
-                            The idea we had was similar to the "White Bear" episode of Black Mirror - where you are a criminal and this is your punishment; rather than prison, you are <i>Locked In</i> to an internal loop of repeating the same thing over and over.<br>
-                            <i>Can you break the cycle?</i><br>
-                            <br>
-                            <strong>Credits: Reece Horsefield, Zac Pridden</strong>
-                        </p>
-                        <a href="https://cdgamedev.itch.io/locked-in">Locked In Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Joe's Conquest" class="college-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Joe's Conquest (2018)</h2>
-                            <h3>Priestley College: Year 1<br>(The Game Project)</h3>
-                            <img src="/img/projects/joes-conquest-promo.png" alt="Joe's Conquest Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-csharp-plain-wordmark"></i>
-                            <i class="fab fa-unity"></i>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            As part of my college course I had to make a 2D Platfomer game within Unity.<br>
-                            After being trapped in a computer by a high school bully and notorious hacker Adam, Joe must find his way through the computer and escape.<br>
-                            He must rescue his love, Laura, from Adam's clutches.<br>
-                            But will he do it?
-                        </p>
-                        <a href="https://cdgamedev.itch.io/joes-conquest">Joe's Conquest Download</a>
-                    </div>
-                </div>
-            </span>
-            <span id="Nightly Profit Mod" class="personal-project">
-                <hr>
-                <div class="project-flex">
-                    <div class="project-details">
-                        <div class="project-title">
-                            <h2>Nightly Profit Mod<br>(2018)</h2>
-                            <h3>Personal: Mod<br>(Startup Company)</h3>
-                            <img src="/img/projects/nightly-profit-mod-promo.png" alt="Nightly Profit Mod Icon Image">
-                        </div>
-                        <div class="tech-icon project">
-                            <i class="devicon-html5-plain-wordmark"></i>
-                            <i class="devicon-css3-plain-wordmark"></i>
-                            <i class="devicon-javascript-plain"></i><br>
-                        </div>
-                    </div>
-                    <div class="project-summary">
-                        <p>
-                            <i>Are you tired of using a calculator to figure out how much money your company is making/losing from its services? Want a way to easily find it out?</i><br>
-                            Now you can with the Nightly Profit Mod.<br>
-                            This mod creates a new page, showcasing how much money you are making Nightly.<br>
-                            (The mod only calculates how much you make from income on services, how much you spend on servers, staff wages and corporate benefits. It doesn't take into account things like buying furniture or paying one off staff fees when they start working for you).<br>
-                            The mod displays the profit in a new format; GRAPHS, making the old TABLE view obsolete (and thus this has been removed), but I'm sure you won't miss that mess of a display method.<br>
-                            You can also choose how many days of data you want to show, with the options being: 3 Days/5 Days/1 Week/2 Weeks/1 Month /2 Months/1 Year.
-                        </p>
-                        <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1396403258&searchtext=">Nightly Profit Mod Workshop Page</a>
-                    </div>
-                </div>
             </span>
         </div>
 

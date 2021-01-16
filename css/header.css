@@ -99,10 +99,6 @@
   opacity: .7;
 }
 
-.site-navigation.menu-link.sub-menu {
-  display: none;
-}
-
 .site-navigation.menu-link:link,
 .site-navigation.menu-link:visited {
   text-decoration: none;
