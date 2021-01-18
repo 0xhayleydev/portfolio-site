@@ -12,12 +12,13 @@ code {
 .project-container.item {
     display: inline;
     margin: 1%;
-    text-align: left;
+    text-align: center;
 }
 
 .project-promo-image {
     border: solid 2px gray;
     width: 100%;
+    margin: 2%;
 }
 
 .column-container {
