@@ -37,6 +37,15 @@ code {
     vertical-align: middle;
 }
 
+.contract-heading {
+    color: #1DCDFE;
+    margin-bottom: 0;
+}
+
+.contract-summary {
+    margin-top: 0;
+}
+
 h1, h2 {
     margin-bottom: 0px;
 }
