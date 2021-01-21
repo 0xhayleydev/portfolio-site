@@ -37,6 +37,30 @@ code {
     vertical-align: middle;
 }
 
+.table table {
+    margin: auto;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table table, .table th, .table td {
+    border: 2px solid var(--text-color);
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table td {
+    border: 1px solid var(--text-color);
+}
+
+.table img {
+    width: 100%;
+}
+
+.table.no-border table, .table.no-border th, .table.no-border td {
+    border: 0;
+}
+
 .contract-heading {
     color: #1DCDFE;
     margin-bottom: 0;
