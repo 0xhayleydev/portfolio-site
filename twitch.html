@@ -42,22 +42,33 @@
         <div class="site-body">
             <h1>Twitch</h1>
             <hr>
-            <!-- Add a placeholder for the Twitch embed -->
-            <div id="twitch-embed"></div>
+            <span class="side-by-side-container">
+                <div>
+                    <!-- Add a placeholder for the Twitch embed -->
+                    <div id="twitch-embed"></div>
 
-            <!-- Load the Twitch embed script -->
-            <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                    <!-- Load the Twitch embed script -->
+                    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
 
-            <!-- Create a Twitch.Player object. This will render within the placeholder div -->
-            <script type="text/javascript">
-            new Twitch.Player("twitch-embed", {
-                width: 1440,
-                height: 810,
-                channel: "cdgamedev",
-                parent: "hayleydavi.es"
-            });
-            </script>
-            <iframe src="https://discord.com/widget?id=713118191697788974&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+                    <script type="text/javascript">
+                    new Twitch.Player("twitch-embed", {
+                        width: 800,
+                        height: 450,
+                        channel: "cdgamedev",
+                        parent: "hayleydavi.es"
+                    });
+                    </script>
+                </div>
+                <div></div>
+                <div>
+                    <iframe src="https://discord.com/widget?id=713118191697788974&theme=dark" width="350" height="450" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </div>
+            </span>
+
+            <h1>Upcoming Streams</h1>
+            <p>Here is a rough list of streams I have planned. I am sticking to this schedule as best as I can.</p>
+            <iframe src="https://calendar.google.com/calendar/embed?src=f2bjrkochfg8g17jh2i70ouevs%40group.calendar.google.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
 
         <!--FOOTER-->

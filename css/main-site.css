@@ -253,6 +253,13 @@ body {
   height: 100%;
 }
 
+.side-by-side-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
 hr {
   color: var(--text-color);
   margin: 2% 40%;
