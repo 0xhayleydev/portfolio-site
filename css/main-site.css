@@ -299,3 +299,8 @@ h2 {
   height: 40px;
   display: block;
 }
+
+#stream-schedule {
+  max-width: calc(var(--max-page-width) * .75);
+  min-width: calc(var(--max-page-width) * .5);
+}
