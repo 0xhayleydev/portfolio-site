@@ -1,0 +1,29 @@
+.experience-container {
+    width: 1280px;
+    border: 2px white solid;
+    padding: 16px;
+    zoom: 75%;
+    -moz-transform: scale(0.75);
+}
+
+.experience-content {
+    border: 2px white solid;
+    align-items: center;
+}
+
+.no-margin {
+    margin-top: 0;
+}
+
+.resume-image-container {
+    width: 177%;
+}
+
+.resume-image-content {
+    width: 95%;
+    border: 2px white solid;
+}
+
+.resume-hr {
+    margin: 0 40%;
+}
