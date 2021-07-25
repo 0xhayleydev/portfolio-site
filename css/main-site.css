@@ -146,11 +146,6 @@ body {
   align-items: center;
   flex-direction: row;
   padding: 4px;
-  opacity: .5;
-}
-
-.project-flex:hover {
-  opacity: 1;
 }
 
 .project-details {
