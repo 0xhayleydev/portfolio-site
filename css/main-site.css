@@ -305,3 +305,10 @@ h2 {
   text-align: center;
   list-style-position: inside;
 }
+
+@media only screen
+and (orientation: portrait) {
+    :root {
+        --margin-size: 1vw;
+    }
+}
