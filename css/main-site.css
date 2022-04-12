@@ -111,12 +111,12 @@ body {
 }
 
 .flex-div {
-  padding: 4px;
-  justify-content: space-evenly;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: space-between;
 }
 
 .flex-content {
@@ -262,7 +262,7 @@ hr {
 }
 
 a {
-  color: #1DCDFE;
+  color: #B2A0C4;
 }
 
 a:hover {
@@ -270,15 +270,15 @@ a:hover {
 }
 
 strong {
-  color: #34F5C6;
+  color: #9C88AC;
 }
 
 h1 {
-  color: #34F5C6;
+  color: #9C88AC;
 }
 
 h2 {
-  color: #1DCDFE;
+  color: #9C88AC;
 }
 
 .gap.small {

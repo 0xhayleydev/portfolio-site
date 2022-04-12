@@ -1,131 +1,139 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <title>Hayley Davi.es | Home</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="/css/main-site.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <script src="https://kit.fontawesome.com/2d7cda5ffb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/load-content.js"></script>
+    <style> 
+        .page-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            align-content: center;
+            text-align: center;
+            padding: 5%;
+            box-sizing: border-box;
+        }
 
-<meta http-equiv="content-type" content="text/html" charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:creator" content="@cdgamedev" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Hayley Davies - Home" />
-<meta property="og:description" content="The homepage for Hayley Davies." />
-<meta property="og:url" content="https://hayleydavi.es" />
-<meta property="og:image" content="https://hayleydavi.es/img/site-logo.jpg" />
+        .flex-div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: stretch;
+        }
 
-<html class="whole-page">
-    <head>
-        <title>Hayley Davi.es | Home</title>
+        body {
+            padding: 0;
+            margin: 0;
+            color: #C8B8DB;
+        }
+
+        .whole-page {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
         
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">
-        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        
-        <link rel="stylesheet" href="/css/main-site.css">
-        <link rel="stylesheet" href="/css/header.css">
-        <link rel="stylesheet" href="/css/footer.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-        <script src="https://kit.fontawesome.com/2d7cda5ffb.js" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="/js/load-content.js"></script>
-    </head>
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .body {
+            width: 100%;
+        }
 
-    <body class="whole-page">
-        <!--HEADER-->
-        <header id="header"></header>
-        <!--HEADER END-->
+        .body .page-section:nth-of-type(odd) {
+            background: #502F4C;
+            animation: fadein 1s;
+        }
 
-        <div class="site-body">
-            <div>
-                <h1>Technologies</h1>
+        .body .page-section:nth-of-type(even) {
+            background: #321E30;
+            animation: fadein 1s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="body">
+            <div class="page-section">
+                <span>
+                    <h1>Hayley Davies</h1>
+                    <p>A Collection of My Game Making Things</p>
+                </span>
                 <div class="flex-div">
                     <div>
-                        <i class="devicon-python-plain-wordmark tech-icon"></i><br>
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+                        <p>6 Years+</p>
+                    </div>
+                    <div>
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
                         <p>5 Years+</p>
                     </div>
                     <div>
-                        <i class="devicon-trello-plain-wordmark tech-icon"></i>
+                        <i class="devicon-unity-original tech-icon"></i>
                         <p>5 Years+</p>
                     </div>
                     <div>
-                        <i class="devicon-csharp-line-wordmark tech-icon"></i><br>
+                        <i class="devicon-html5-plain-wordmark colored tech-icon"></i><br>
                         <p>4 Years+</p>
                     </div>
                     <div>
-                        <i class="fab fa-unity tech-icon"></i><br>
-                        <p>4 Years+</p>
+                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <p>2 Years+</p>
                     </div>
                     <div>
-                        <i class="devicon-html5-plain-wordmark tech-icon"></i><br>
-                        <p>3 Years+</p>
-                    </div>
-                    <div>
-                        <i class="devicon-git-plain-wordmark tech-icon"></i><br>
-                        <p>1 Year+</p>
+                        <i class="devicon-git-plain colored tech-icon"></i>
+                        <p>2 Year+</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <h1>Projects</h1>
-                <div class="three-promo">
-                    <div class="three-promo container">
-                        <img class="three-promo image top" src="../img/projects/flight-attendant-simulator-promo.jpg" alt="">
-                        <div class="three-promo info">
-                            <a href="../projects/flight-attendant-simulator.html">
-                                <h1>Flight Attendant Simulator</h1>
-                            </a>
-                            <p>
-                                2019.<br>
-                                College Project.<br>
-                                VR Game Made In Unity.<br>
-                                <br>
-                                In this fast paced VR experience you are tasked with handing out food to customers and making sure they are satisfied.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="three-promo container">
-                        <img class="three-promo image top" src="../img/projects/what-happened-to-charlie-promo.png" alt="">
-                        <div class="three-promo info">
-                            <a href="https://midenistis.itch.io/what-happened-to-charlie">
-                                <h1>What Happened To Charlie?</h1>
-                            </a>
-                            <p>
-                                2021.<br>
-                                University Project.<br>
-                                3D Thriller Puzzle Game Made In Unity.<br>
-                                <br>
-                                <br>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="three-promo container">
-                        <img class="three-promo image" src="../img/projects/the-eyes-bot-promo.png" alt="">
-                        <div class="three-promo info">
-                            <a href="../projects/the-eyes-bot.html">
-                                <h1>The Eyes Bot</h1>
-                            </a>
-                            <p>
-                                2020.<br>
-                                Personal Project.<br>
-                                A Simple Discord Bot Made In Python Using discord.py.<br>
-                                <br>
-                                This bot reacts with "👀", when someone uses "👀" amongst other things. Simple as that!<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="page-section">
+                <span>
+                    <h1>Personal Projects</h1>
+                    <p>A collection of the personal work that I have worked on.</p>
+                </span>
             </div>
-            <h1>What Happened To Charlie?</h1>
-            <div class="video-embed-container">
-                <iframe class="video-embed" width="100%" height="100%" src="https://www.youtube.com/embed/ob1XH4FNBQI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="page-section">
+                <h1>University Projects</h1>
+                <p>A collection of the univeristy work that I have worked on.</p>
+            </div>
+            <div class="page-section">
+                <span>
+                    <h1>College Projects</h1>
+                    <p>A collection of the college work that I have worked on.</p>
+                </span>
             </div>
         </div>
-
-        <!--FOOTER-->
-        <footer id="footer"></footer>
-        <!--FOOTER END-->
-    </body>
+    </div>
+</body>
 </html>
+
