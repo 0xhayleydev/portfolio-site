@@ -12,128 +12,99 @@
     <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" href="/css/main-site.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/2d7cda5ffb.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/js/load-content.js"></script>
-    <style> 
-        .page-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            width: 100%;
-            height: 100vh;
-            align-content: center;
-            text-align: center;
-            padding: 5%;
-            box-sizing: border-box;
-        }
-
-        .flex-div {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            align-content: stretch;
-        }
-
-        body {
-            padding: 0;
-            margin: 0;
-            color: #C8B8DB;
-        }
-
-        .whole-page {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
-        }
-
-        ::-webkit-scrollbar {
-            display: none;
-        }
-        
-        @keyframes fadein {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        .body {
-            width: 100%;
-        }
-
-        .body .page-section:nth-of-type(odd) {
-            background: #502F4C;
-            animation: fadein 1s;
-        }
-
-        .body .page-section:nth-of-type(even) {
-            background: #321E30;
-            animation: fadein 1s;
-        }
-    </style>
 </head>
 <body>
-    <div>
-        <div class="body">
-            <div class="page-section">
-                <span>
+    <div class="body">
+        <div class="page-section">
+            <div class="section-split section-split-transition">
+                <div id="notransition" class="section-content">
                     <h1>Hayley Davies</h1>
                     <p>A Collection of My Game Making Things</p>
-                </span>
-                <div class="flex-div">
-                    <div>
-                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
-                        <p>6 Years+</p>
+                    <img class="portrait-image" src="img/site-logo.jpg" alt="Profile Picture of Hayley Davies">
+                </div>
+                <div id="notransition" class="section-content">
+                    <h1>Skills</h1>
+                    <div class="flex-div">
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /><br>
+                            <p>6 Years+</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" /><br>
+                            <p>5 Years+</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" /><br>
+                            <p>5 Years+</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><br>
+                            <p>4 Years+</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><br>
+                            <p>2 Years+</p>
+                        </div>
+                        <div class="tech-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" /><br>
+                            <p>2 Year+</p>
+                        </div>
                     </div>
+                </div>
+                <div id="notransition" class="section-content">
+                    <h1>About Me</h1>
+                    <p>
+                        I'm a 2nd year Game Development: Programming student at Falmouth Univeristy.
+                        Alongside this role, I am also a Student Representative and Mentor for my course.
+                        In my spare time I occasionally stream, but mainly, I enjoy programming and creating new things.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="page-section">
+            <div class="section-split">
+                <div class="section-content section-content-transition">
+                    <h1>Personal Projects</h1>
+                    <p>A collection of the personal work that I have worked on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-section">
+            <div class="section-split">
+                <div class="section-content section-content-transition">
+                    <h1>University Projects</h1>
+                    <p>A collection of the univeristy work that I have worked on.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-section">
+            <div class="section-split">
+                <div class="section-content section-content-transition">
                     <div>
-                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
-                        <p>5 Years+</p>
-                    </div>
-                    <div>
-                        <i class="devicon-unity-original tech-icon"></i>
-                        <p>5 Years+</p>
-                    </div>
-                    <div>
-                        <i class="devicon-html5-plain-wordmark colored tech-icon"></i><br>
-                        <p>4 Years+</p>
-                    </div>
-                    <div>
-                        <img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                        <p>2 Years+</p>
-                    </div>
-                    <div>
-                        <i class="devicon-git-plain colored tech-icon"></i>
-                        <p>2 Year+</p>
+                        <h1>College Projects</h1>
+                        <p>A collection of the college work that I have worked on.</p>
                     </div>
                 </div>
             </div>
-            <div class="page-section">
-                <span>
-                    <h1>Personal Projects</h1>
-                    <p>A collection of the personal work that I have worked on.</p>
-                </span>
-            </div>
-            <div class="page-section">
-                <h1>University Projects</h1>
-                <p>A collection of the univeristy work that I have worked on.</p>
-            </div>
-            <div class="page-section">
-                <span>
-                    <h1>College Projects</h1>
-                    <p>A collection of the college work that I have worked on.</p>
-                </span>
+        </div>
+        <div class="page-section">
+            <div class="section-split">
+                <div class="section-content section-content-transition">
+                    <div>
+                        <h1>Socials</h1>
+                        <p>Check me out on social media.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+<script type="text/javascript" src="/js/page.js"></script>
 </html>
 
