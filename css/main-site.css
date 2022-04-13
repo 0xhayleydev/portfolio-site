@@ -33,6 +33,7 @@ a:hover {
     box-sizing: border-box;
     margin: auto;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .section-split {
@@ -43,6 +44,7 @@ a:hover {
 	align-items: center;
 	align-content: center;
     width: 90%;
+    max-width: 15in;
     min-height: 700px;
     text-align: center;
     box-sizing: border-box;
@@ -67,7 +69,7 @@ a:hover {
 
 @media (prefers-reduced-motion: no-preference) {
     .section-split {
-        transition: opacity 1.5s ease, transform 1.5s ease;
+        transition: opacity 1s ease, transform 1s ease-out;
     }
 }
 

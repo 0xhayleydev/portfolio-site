@@ -13,11 +13,11 @@ for (let elementClass of listOfTransitionElementClasses) {
         let observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-            element.classList.add(elementClass + "-transition");
-            return;
+                element.classList.add(elementClass + "-transition");
+                return;
             }
 
-            element.classList.remove(elementClass + "-transition");
+            //element.classList.remove(elementClass + "-transition");
         });
         });
 
