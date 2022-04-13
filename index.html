@@ -19,15 +19,39 @@
     <script src="https://kit.fontawesome.com/2d7cda5ffb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--TEMPORARY HEADING TO SAY THE SITE IS A WIP-->
+    <div style="text-align: center;">
+        <style>
+            #toggle {
+                display: none;
+            }
+
+            #toggle:checked ~ * {
+                display: none;
+            }
+        </style>
+        <input type="checkbox" id="toggle">
+        <label for="toggle">
+            <div class="wip-heading">
+                <h1>!! WIP !!</h1>
+                <p>
+                    This site is a work in progress and as such, some things may not work as intended. <br>
+                    (P.S. Click this banner to hide it.)
+                </p>
+            </div>
+        </label>
+    </div>
+    <!--END OF TEMPORARY HEADING-->
+
     <div class="body">
         <div class="page-section">
             <div class="section-split section-split-transition">
-                <div id="notransition" class="section-content">
+                <div class="section-content">
                     <h1>Hayley Davies</h1>
                     <p>A Collection of My Game Making Things</p>
                     <img class="portrait-image" src="img/site-logo.jpg" alt="Profile Picture of Hayley Davies">
                 </div>
-                <div id="notransition" class="section-content">
+                <div class="section-content">
                     <h1>Skills</h1>
                     <div class="flex-div">
                         <div class="tech-icon">
@@ -56,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="notransition" class="section-content">
+                <div class="section-content">
                     <h1>About Me</h1>
                     <p>
                         I'm a 2nd year Game Development: Programming student at Falmouth Univeristy.
@@ -68,37 +92,74 @@
             </div>
         </div>
         <div class="page-section">
-            <div class="section-split">
-                <div class="section-content section-content-transition">
-                    <h1>Personal Projects</h1>
-                    <p>A collection of the personal work that I have worked on.</p>
+            <div class="section-split section-split-transition">
+                <div class="section-content">
+                    <h1>Games</h1>
+                    <p>A collection of the games that I have worked on.</p>
                 </div>
-            </div>
-        </div>
-        <div class="page-section">
-            <div class="section-split">
-                <div class="section-content section-content-transition">
-                    <h1>University Projects</h1>
-                    <p>A collection of the univeristy work that I have worked on.</p>
-                </div>
-            </div>
-        </div>
-        <div class="page-section">
-            <div class="section-split">
-                <div class="section-content section-content-transition">
-                    <div>
-                        <h1>College Projects</h1>
-                        <p>A collection of the college work that I have worked on.</p>
+                <div class="three-promo">
+                    <div class="three-promo-container">
+                        <img src="./img/projects/flight-attendant-simulator-promo.jpg" alt="">
+                        <h2>Flight Attendant Simulator</h2>
+                        <p>
+                            In this fast paced VR experience you are tasked with handing out food to customeres and ensuring they are satisfied.
+                        </p>
+                    </div>
+                    <div class="three-promo-container">
+                        <img src="./img/projects/what-happened-to-charlie-promo.png" alt="">
+                        <h2>What Happened To Charlie?</h2>
+                        <p>
+                            Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.
+                        </p>
+                    </div>
+                    <div class="three-promo-container">
+                        <img src="./img/projects/gruttel-scuttle.png" alt="">
+                        <h2>Gruttel Scuttle (under development)</h2>
+                        <p>
+                            When your planet is being polluted by space debris what more can you do than CLEANING FRENZY!
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="page-section">
-            <div class="section-split">
-                <div class="section-content section-content-transition">
+            <div class="section-split section-split-transition">
+                <div class="section-content">
+                    <h1>Misc</h1>
+                    <p>A collection of my miscellaneous things that I have worked on, from mods to websites and everything in between.</p>
+                </div>
+                <div class="three-promo">
+                    <div class="three-promo-container">
+                        <img src="./img/projects/cdgamedev-github-io-promo.png" alt="">
+                    </div>
+                    <div class="three-promo-container">
+                        <img src="./img/projects/the-eyes-bot-promo.png" alt="">
+                    </div>
+                    <div class="three-promo-container">
+                        <img src="./img/projects/nightly-profit-mod-promo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-section">
+            <div class="section-split section-split-transition">
+                <div class="section-content">
                     <div>
                         <h1>Socials</h1>
                         <p>Check me out on social media.</p>
+                    </div>
+                    <div>
+                        <a href="https://trojanmouse.games">TrojanMouse Games</a>
+                        <a href="https://cdgamedev.itch.io">My Games</a>
+                        <a href="https://github.com/cdgamedev">GitHub</a>
+                        <a href="https://linkedin.com/in/cdgamedev">LinkedIn</a>
+                        <a href="mailto:hayleyjdavies99+enquiry@gmail.com">Email</a>
+                        <a href="https://twitter.com/cdgamedev">Twitter</a>
+                        <a href="https://discord.com/invite/kUhrWKshu8">Discord</a>
+                        <a href="https://instagram.com/itzhayleyuk/">Instagram</a>
+                        <a href="https://twitch.tv/cdgamedev">Twitch</a>
+                        <a href="https://tiktok.com/@cdgamedev">TikTok</a>
+                        <a href="https://youtube.com/c/cdgamedev">YouTube</a>
                     </div>
                 </div>
             </div>

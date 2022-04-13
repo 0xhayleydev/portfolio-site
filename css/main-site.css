@@ -9,23 +9,13 @@
     --section-color: calc(var(--page-color) *.7)
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 body {
     padding: 0;
     margin: 0;
-    font-size: x-large;
 }
 
 a {
-    color: #6F3228;
+    color: var(--link-color);
 }
 
 a:hover {
@@ -66,22 +56,16 @@ a:hover {
 }
 
 .section-content {
-    opacity: 0;
-    transform: scale(0.8);
     max-width: 50%;
     width: 50%;
 }
 
-#notransition {
+.notransition {
     opacity: 1;
     transform: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .section-content {
-        transition: opacity 1.5s ease, transform 1.5s ease;
-    }
-
     .section-split {
         transition: opacity 1.5s ease, transform 1.5s ease;
     }
@@ -135,6 +119,38 @@ a:hover {
 .portrait-image {
     width: 50%;
 }
+
+.three-promo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+    max-width: 100%;
+}
+
+.three-promo-container {
+    max-width: 30%;
+    height: 100%;
+}
+
+.three-promo-container img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 @media (max-aspect-ratio: 1/1)
  {
