@@ -10,6 +10,7 @@
 }
 
 body {
+    font-family: 'JetBrains Mono', monospace;
     padding: 0;
     margin: 0;
 }
@@ -34,6 +35,7 @@ a:hover {
     margin: auto;
     min-height: 100vh;
     overflow: hidden;
+    color: var(--text-color);
 }
 
 .section-split {
@@ -84,12 +86,12 @@ a:hover {
 
 .body .page-section:nth-of-type(odd) {
     background: var(--odd-page-color);
-    color: var(--even-page-color);
+    /* color: var(--even-page-color); */
 }
 
 .body .page-section:nth-of-type(even) {
     background: var(--even-page-color);
-    color: var(--odd-page-color);
+    /* color: var(--odd-page-color); */
 }
 
 .flex-div {
