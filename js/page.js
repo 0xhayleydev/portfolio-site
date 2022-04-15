@@ -4,7 +4,7 @@ const listOfTransitionElementClasses = [
 
 
 for (let elementClass of listOfTransitionElementClasses) {
-    const pageSections = document.getElementsByClassName(elementClass);
+    let pageSections = document.getElementsByClassName(elementClass);
 
     for (let element of pageSections) {
         element.classList.remove(elementClass + "-transition");
