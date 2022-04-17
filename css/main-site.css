@@ -153,7 +153,10 @@ a:hover {
     overflow: hidden;
     width: 100%;
     aspect-ratio: 1/1;
-    border:solid red;
+}
+
+.three-promo-description {
+    
 }
 
 @keyframes fadein {
@@ -189,7 +192,19 @@ a:hover {
 
     .three-promo-container img,
     .three-promo-description {
-        width: 100%;
+        width: 50%;
         margin: 10px;
+        min-width: 300px;
+    }
+}
+
+@media (pointer:coarse) {
+
+    .three-promo-container img {
+
+    }
+
+    .three-promo-description {
+        display: block;
     }
 }
