@@ -127,6 +127,10 @@ a:hover {
     object-position: top;
 }
 
+.social-links {
+    font-size: 2em;
+}
+
 .three-promo {
 	display: flex;
 	flex-direction: row;
