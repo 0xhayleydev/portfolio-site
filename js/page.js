@@ -22,12 +22,15 @@ for (let elementClass of listOfTransitionElementClasses) {
     }
 }
 
-function togglePanel(id) {
+function togglePanel(callerID, id) {
     var contentToToggle = document.getElementById(id);
+    var callerText = document.getElementById(callerID);
 
     if (contentToToggle.classList.contains("promo-panel-hidden")) {
         contentToToggle.classList.remove("promo-panel-hidden");
+        callerText.textContent = "Show Less";
     } else {
         contentToToggle.classList.add("promo-panel-hidden");
+        callerText.textContent = "Show More";
     }
 }

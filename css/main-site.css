@@ -182,8 +182,15 @@ a:hover {
     display: none;
 }
 
+.show-more-checkbox+label {
+    font-size: 3em;
+}
+
+.show-more-checkbox+label:hover {
+    opacity: 70%;
+}
+
 .show-more-checkbox+label .fa-solid {
-    font-size: 5em;
     margin-top: auto;
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
@@ -200,10 +207,6 @@ a:hover {
     -moz-transform: rotate(0);
     -o-transform: rotate(0);
     transform: rotate(0);
-}
-
-.show-more-checkbox+label .fa-solid:hover {
-    opacity: 70%;
 }
 
 @media (max-aspect-ratio: 1/1)
