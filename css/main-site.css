@@ -69,9 +69,24 @@ a:hover {
     transform: none;
 }
 
+.promo-panel {
+    opacity: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.promo-panel-hidden {
+    opacity: 0;
+    height: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .section-split {
         transition: opacity 1s ease, transform 1s ease-out;
+    }
+
+    .promo-panel {
+        transition: opacity 250ms ease, height 250ms ease-out;
     }
 }
 
@@ -159,19 +174,37 @@ a:hover {
     aspect-ratio: 1/1;
 }
 
-.three-promo-description {
-    
+.hidden {
+	display: none;
 }
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.show-more-checkbox {
+    display: none;
 }
 
+.show-more-checkbox+label .fa-solid {
+    font-size: 5em;
+    margin-top: auto;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    -moz-transition: -moz-transform 250ms ease-in-out;
+    -o-transition: -o-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+}
+
+.show-more-checkbox:checked+label .fa-solid {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.show-more-checkbox+label .fa-solid:hover {
+    opacity: 70%;
+}
 
 @media (max-aspect-ratio: 1/1)
  {
@@ -203,11 +236,6 @@ a:hover {
 }
 
 @media (pointer:coarse) {
-
-    .three-promo-container img {
-
-    }
-
     .three-promo-description {
         display: block;
     }
