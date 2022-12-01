@@ -13,13 +13,54 @@ async function parseGames(json) {
 
     for (let i = 0; i < order.length; i++) {
         let id = order[i];
-        element.appendChild(createImage(games[id]))
+        element.appendChild(showGame(games[id]));
     }
 }
 
-function createImage(json) {
-    let img = document.createElement('img');
-    img.id = ""
+function showGame(json) {
+    let container = createElement('div');
+    container.classList.add('three-promo-container');
+    container.appendChild(getImage(json));
+    container.appendChild(getDescription(json));
+    container.appendChild(getIcons(json));
+    return container;
+}
+
+function getName(json) {
+    let h2 = createElement('h2');
+    h2.innerHTML = json["project-name"];
+    return h2;
+}
+
+function getImage(json) {
+    let img = createElement('img');
     img.src = json["project-image"];
     return img;
+}
+
+function getDescription(json) {
+    let p = createElement('p');
+    p.innerHTML = json["project-description"];
+    return p;
+}
+
+function getIcons(json) {
+    let div = createElement('div')
+    div.classList.add('social-links')
+    let icons = json["icons"];
+    for(let icon = 0; icon < icons.length; icon++) {
+        let i = createElement('i');
+        i.classList.add(icons[icon]);
+        div.appendChild(i);
+    }
+    return div;
+}
+
+function getURL() {
+
+}
+
+function createElement(type) {
+    let element = document.createElement(type);
+    return element;
 }
