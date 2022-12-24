@@ -21,6 +21,7 @@ function showGame(json) {
     let container = createElement('div');
     container.classList.add('three-promo-container');
     container.appendChild(getImage(json));
+    container.appendChild(getURL(json));
     container.appendChild(getDescription(json));
     container.appendChild(getIcons(json));
     return container;
@@ -28,19 +29,19 @@ function showGame(json) {
 
 function getName(json) {
     let h2 = createElement('h2');
-    h2.innerHTML = json["project-name"];
+    h2.innerHTML = json["name"];
     return h2;
 }
 
 function getImage(json) {
     let img = createElement('img');
-    img.src = json["project-image"];
+    img.src = json["image"];
     return img;
 }
 
 function getDescription(json) {
     let p = createElement('p');
-    p.innerHTML = json["project-description"];
+    p.innerHTML = json["description"];
     return p;
 }
 
@@ -56,8 +57,11 @@ function getIcons(json) {
     return div;
 }
 
-function getURL() {
-
+function getURL(json) {
+    var a = createElement("a");
+    a.href = json["url"];
+    a.appendChild(getName(json));
+    return a;
 }
 
 function createElement(type) {

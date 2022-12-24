@@ -1,0 +1,66 @@
+
+
+.three-promo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: center;
+    max-width: 100%;
+}
+
+.three-promo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 30%;
+    height: 100%;
+    margin: 10px;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.three-promo-container:hover {
+    transform: scale(1.1);
+}
+
+.three-promo-container:hover .image-hover-display {
+    visibility: visible;
+    opacity: 1;
+}
+
+.three-promo-container img {
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+@media (max-aspect-ratio: 1/1)
+  {
+    .three-promo {
+        flex-direction: column;
+    }
+
+    .three-promo-container {
+        /* flex-direction: row; */
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .three-promo-container img,
+    .three-promo-description {
+        width: 50%;
+        margin: 10px;
+        min-width: 300px;
+    }
+  }
+
+@media (pointer:coarse) {
+    .three-promo-description {
+        display: block;
+    }
+}
