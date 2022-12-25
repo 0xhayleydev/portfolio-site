@@ -19,12 +19,12 @@
     max-width: 30%;
     height: 100%;
     margin: 10px;
-    transform: scale(1);
+    transform: scale(0.9);
     transition: 1s;
 }
 
 .three-promo-container:hover {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .three-promo-container:hover .image-hover-display {

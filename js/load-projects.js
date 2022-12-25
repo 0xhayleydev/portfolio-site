@@ -1,19 +1,24 @@
-fetch('./json/games.json')
+fetch('./json/projects.json')
     .then(response => response.json())
-    .then(json => parseGames(json))
+    .then(json => parseJson(json))
 
 var order;
 
-async function parseGames(json) {
-    order = json["games-order"];
-    let games = json["games"];
+async function parseJson(json) {
+    parseProjects("games", json);
+    parseProjects("projects", json);
+}
 
-    let element = document.getElementById("game-showcase");
+function parseProjects(name, json) {
+    order = json[name + "-order"];
+    let projects = json[name];
+
+    let element = document.getElementById(name + "-showcase");
     element.innerHTML = "";
 
     for (let i = 0; i < order.length; i++) {
         let id = order[i];
-        element.appendChild(showGame(games[id]));
+        element.appendChild(showGame(projects[id]));
     }
 }
 
@@ -58,7 +63,11 @@ function getIcons(json) {
 }
 
 function getURL(json) {
-    var a = createElement("a");
+    if (json["url"] == "") {
+        return getName(json);
+    }
+    
+    var a = createElement('a');
     a.href = json["url"];
     a.appendChild(getName(json));
     return a;
