@@ -21,13 +21,13 @@
     },
     "games-order": [
         "gruttel-scuttle",
-        "what-happened-to-charlie",
+        "poker-game",
         "flight-attendant-simulator"
     ],
     "projects-order": [
         "portfolio-site",
         "discord-bots",
-        "image-filter"
+        "arduino-cocktail-game"
     ],
     "games": {
         "flight-attendant-simulator": {
@@ -64,8 +64,8 @@
         },
         "poker-game": {
             "name": "Poker Game",
-            "description": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code",
-            "image": "./img/projects/poker-game.png",
+            "description": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
+            "image": "./img/projects/poker-game-promo.png",
             "icons": [
                 "devicon-csharp-plain",
                 "devicon-unity-original",
@@ -110,7 +110,7 @@
         "arduino-cocktail-game": {
             "name": "Arduino Cocktail Game",
             "description": "Utilising an Arduino as a custom controller for a cocktail game.",
-            "image": "./img/projects/tinkering-graphics-promo.jpg",
+            "image": "./img/projects/arduino-cocktail-game-promo.jpg",
             "icons": [
                 "devicon-csharp-plain",
                 "devicon-github-original"
