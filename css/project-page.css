@@ -1,3 +1,16 @@
+
 .promo-image {
     width: 50%;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.section-container {
+    
+}
+
+.section-container:nth-of-type(odd) {
+    
 }

@@ -2,8 +2,7 @@
     "games-order": [
         "gruttel-scuttle",
         "poker-game",
-        "flight-attendant-simulator",
-        "portfolio-site"
+        "flight-attendant-simulator"
     ],
     "projects-order": [
         "portfolio-site",
@@ -41,9 +40,19 @@
         "url": "https://cdgamedev.itch.io/flight-attendant-simulator",
         "sections": [
             {
-                "layout": "1",
+                "heading": "About",
                 "image": "./img/projects/flight-attendant-simulator-promo.jpg",
-                "description": "This is a test thing."
+                "description": "Flight Attendant Simulator is a VR experience made in Unity and C# over the course of 6 months during my final year of Game Design at Priestley College. I was the sole programmer for the project in a team of 4 - with the other 3 members being artists."
+            },
+            {
+                "heading": "My Role",
+                "image": "./img/image-placeholder.jpg",
+                "description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
+            },
+            {
+                "heading": "My Role",
+                "image": "./img/image-placeholder.jpg",
+                "description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
             }
         ]
     },
