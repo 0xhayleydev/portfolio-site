@@ -1,0 +1,14 @@
+<div id="hello">
+
+</div>
+
+<script>
+    const queryString = window.location.search;
+    console.log(queryString);
+
+    const urlParams = new URLSearchParams(queryString);
+
+    var div = document.getElementById("hello");
+
+    div.innerHTML = urlParams.get('project');
+</script>
