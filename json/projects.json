@@ -29,93 +29,96 @@
         "discord-bots",
         "arduino-cocktail-game"
     ],
-    "games": {
-        "flight-attendant-simulator": {
-            "name": "Flight Attendant Simulator",
-            "description": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
-            "image": "./img/projects/flight-attendant-simulator-promo.jpg",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-unity-original"
-            ],
-            "url": "https://cdgamedev.itch.io/flight-attendant-simulator"
-        },
-        "what-happened-to-charlie": {
-            "name": "What Happened To Charlie?",
-            "description": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
-            "image": "./img/projects/what-happened-to-charlie-promo.png",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-unity-original",
-                "devicon-github-original"
-            ],
-            "url": "https://midenistis.itch.io/what-happened-to-charlie"
-        },
-        "gruttel-scuttle": {
-            "name": "Gruttle Scuttle",
-            "description": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
-            "image": "./img/projects/gruttel-scuttle.png",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-unity-original",
-                "devicon-git-plain"
-            ],
-            "url": "https://trojanmouse-games.itch.io/gruttel-scuttle"
-        },
-        "poker-game": {
-            "name": "Poker Game",
-            "description": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
-            "image": "./img/projects/poker-game-promo.png",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-unity-original",
-                "devicon-github-original"
-            ],
-            "url": ""
-        }
+    "flight-attendant-simulator": {
+        "name": "Flight Attendant Simulator",
+        "description": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
+        "image": "./img/projects/flight-attendant-simulator-promo.jpg",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-unity-original"
+        ],
+        "url": "https://cdgamedev.itch.io/flight-attendant-simulator",
+        "sections": [
+            {
+                "layout": "1",
+                "image": "./img/projects/flight-attendant-simulator-promo.jpg",
+                "description": "This is a test thing."
+            }
+        ]
     },
-    "projects": {
-        "portfolio-site": {
-            "name": "Portfolio Website",
-            "description": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
-            "image": "./img/projects/cdgamedev-github-io-promo.png",
-            "icons": [
-                "devicon-html5-plain",
-                "devicon-javascript-plain",
-                "devicon-css3-plain",
-                "devicon-github-original"
-            ],
-            "url": ""
-        },
-        "discord-bots": {
-            "name": "Discord Bots (Multiple)",
-            "description": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
-            "image": "./img/projects/the-eyes-bot-promo.png",
-            "icons": [
-                "devicon-python-plain",
-                "devicon-github-original"
-            ],
-            "url": ""
-        },
-        "image-filter": {
-            "name": "Image Filter",
-            "description": "For a University project I made a ",
-            "image": "./img/projects/tinkering-graphics-promo.jpg",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-github-original"
-            ],
-            "url": ""
-        },
-        "arduino-cocktail-game": {
-            "name": "Arduino Cocktail Game",
-            "description": "Utilising an Arduino as a custom controller for a cocktail game.",
-            "image": "./img/projects/arduino-cocktail-game-promo.jpg",
-            "icons": [
-                "devicon-csharp-plain",
-                "devicon-github-original"
-            ],
-            "url": ""
+    "what-happened-to-charlie": {
+        "name": "What Happened To Charlie?",
+        "description": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
+        "image": "./img/projects/what-happened-to-charlie-promo.png",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-unity-original",
+            "devicon-github-original"
+        ],
+        "url": "https://midenistis.itch.io/what-happened-to-charlie"
+    },
+    "gruttel-scuttle": {
+        "name": "Gruttle Scuttle",
+        "description": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
+        "image": "./img/projects/gruttel-scuttle.png",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-unity-original",
+            "devicon-git-plain"
+        ],
+        "url": "https://trojanmouse-games.itch.io/gruttel-scuttle"
+    },
+    "poker-game": {
+        "name": "Poker Game",
+        "description": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
+        "image": "./img/projects/poker-game-promo.png",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-unity-original",
+            "devicon-github-original"
+        ],
+        "url": ""
+    },
+    "portfolio-site": {
+        "name": "Portfolio Website",
+        "description": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
+        "image": "./img/projects/cdgamedev-github-io-promo.png",
+        "icons": [
+            "devicon-html5-plain",
+            "devicon-javascript-plain",
+            "devicon-css3-plain",
+            "devicon-github-original"
+        ],
+        "url": ""
+    },
+    "discord-bots": {
+        "name": "Discord Bots (Multiple)",
+        "description": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
+        "image": "./img/projects/the-eyes-bot-promo.png",
+        "icons": [
+            "devicon-python-plain",
+            "devicon-github-original"
+        ],
+        "url": ""
+    },
+    "image-filter": {
+        "name": "Image Filter",
+        "description": "For a University project I made a ",
+        "image": "./img/projects/tinkering-graphics-promo.jpg",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-github-original"
+        ],
+        "url": ""
+    },
+    "arduino-cocktail-game": {
+        "name": "Arduino Cocktail Game",
+        "description": "Utilising an Arduino as a custom controller for a cocktail game.",
+        "image": "./img/projects/arduino-cocktail-game-promo.jpg",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-github-original"
+        ],
+        "url": ""
         }
-    }
 }

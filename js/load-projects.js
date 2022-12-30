@@ -11,18 +11,17 @@ async function parseJson(json) {
 
 function parseProjects(name, json) {
     order = json[name + "-order"];
-    let projects = json[name];
 
     let element = document.getElementById(name + "-showcase");
     element.innerHTML = "";
 
     for (let i = 0; i < order.length; i++) {
         let id = order[i];
-        element.appendChild(showGame(projects[id]));
+        element.appendChild(showProject(json[id]));
     }
 }
 
-function showGame(json) {
+function showProject(json) {
     let container = createElement('div');
     container.classList.add('three-promo-container');
     container.appendChild(getImage(json));
