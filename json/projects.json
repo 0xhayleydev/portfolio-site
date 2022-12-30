@@ -1,4 +1,15 @@
 {
+    "games-order": [
+        "gruttel-scuttle",
+        "poker-game",
+        "flight-attendant-simulator",
+        "portfolio-site"
+    ],
+    "projects-order": [
+        "portfolio-site",
+        "discord-bots",
+        "arduino-cocktail-game"
+    ],
     "blank-project": {
         "name": "",
         "description": "",
@@ -19,16 +30,6 @@
         ],
         "url": ""
     },
-    "games-order": [
-        "gruttel-scuttle",
-        "poker-game",
-        "flight-attendant-simulator"
-    ],
-    "projects-order": [
-        "portfolio-site",
-        "discord-bots",
-        "arduino-cocktail-game"
-    ],
     "flight-attendant-simulator": {
         "name": "Flight Attendant Simulator",
         "description": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
