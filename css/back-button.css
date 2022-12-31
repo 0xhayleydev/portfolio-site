@@ -1,0 +1,13 @@
+.back-button {
+    position: fixed;
+    text-align: center;
+    top: 5vh;
+    left: 5vh;
+    z-index: 100;
+    color: grey;
+    text-decoration: none;;
+}
+
+.back-button:hover {
+    opacity: 50%;
+}

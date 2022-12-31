@@ -17,17 +17,18 @@ function parseProjects(name, json) {
 
     for (let i = 0; i < order.length; i++) {
         let id = order[i];
-        element.appendChild(showProject(json[id]));
+        element.appendChild(showProject(json, id));
     }
 }
 
-function showProject(json) {
+function showProject(json, id) {
+    let project = json[id];
     let container = createElement('div');
     container.classList.add('three-promo-container');
-    container.appendChild(getImage(json));
-    container.appendChild(getURL(json));
-    container.appendChild(getDescription(json));
-    container.appendChild(getIcons(json));
+    container.appendChild(getImage(project));
+    container.appendChild(getURL(project, id));
+    container.appendChild(getDescription(project));
+    container.appendChild(getIcons(project));
     return container;
 }
 
@@ -61,13 +62,9 @@ function getIcons(json) {
     return div;
 }
 
-function getURL(json) {
-    if (json["url"] == "") {
-        return getName(json);
-    }
-    
+function getURL(json, id) {    
     var a = createElement('a');
-    a.href = json["url"];
+    a.href = "./project.html?id=" + id;
     a.appendChild(getName(json));
     return a;
 }

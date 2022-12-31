@@ -3,12 +3,12 @@ console.log(queryString);
 
 const urlParams = new URLSearchParams(queryString);
 
-const project = urlParams.get('project');
+const project = urlParams.get('id');
 const pageBody = document.getElementsByClassName("body")[0];
 
 fetch('./json/projects.json')
     .then(response => response.json())
-    .then(json => loadProject(json))
+    .then(json => loadProject(json));
 
 
 function loadProject(json) {
@@ -27,10 +27,27 @@ function addContent(sectionJson) {
     let section = createNewSection();
     let subsection = createNewSection();
     subsection.className = "section-container";
-    subsection.appendChild(getHeading(sectionJson));
-    subsection.appendChild(getImage(sectionJson));
-    subsection.appendChild(getDescription(sectionJson));
+    
+    // get section heading
+    let heading = getHeading(sectionJson);
+    if (heading != null) {
+        subsection.appendChild(heading);
+    }
+
+    // get section image
+    let image = getImage(sectionJson);
+    if (image != null) {
+        subsection.appendChild(image);
+    }
+
+    // get section description
+    let description = getDescription(sectionJson);
+    if (description != null) {
+        subsection.appendChild(description);
+    }
+
     section.appendChild(subsection);
+
     return section;
 }
 
@@ -42,6 +59,9 @@ function getHeading(sectionJson) {
 }
 
 function getImage(sectionJson) {
+    if (sectionJson["image"] == "") {
+        return null;
+    }
     let img = createElement("img");
     img.className = "project-image";
     img.src = sectionJson["image"];
@@ -50,7 +70,7 @@ function getImage(sectionJson) {
 
 function getDescription(sectionJson) {
     let p = createElement("p");
-    p.className = "section-description"
+    p.className = "project-description";
     p.innerHTML = sectionJson["description"];
     return p;
 }
@@ -64,14 +84,22 @@ function createNewSection() {
 function addInitialContent(projectJson) {
     let section = createNewSection();
     
+    let h1 = createElement("h1");
+    h1.innerHTML = projectJson["name"];
+    
+    if (projectJson["itchURL"] != "") {   
+        let a = createElement("a");
+        a.href = projectJson["itchURL"];
+        a.appendChild(h1);
+        section.appendChild(a);   
+    } else {
+        section.appendChild(h1);
+    }
+    
     let img = createElement("img");
     img.src = projectJson["image"];
     img.className = "promo-image";
     section.appendChild(img);
-
-    let h1 = createElement("h1");
-    h1.innerHTML = projectJson["name"];
-    section.appendChild(h1);
     
     section.appendChild(getIcons(projectJson))
     return section;
@@ -82,8 +110,8 @@ function addInitialContent(projectJson) {
 function getIcons(projectJson) {
     let icons = projectJson["icons"];
 
-    let div = createElement('div')
-    div.classList.add('social-links')
+    let div = createElement('div');
+    div.classList.add('social-links');
     for(let icon = 0; icon < icons.length; icon++) {
         let i = createElement('i');
         i.classList.add(icons[icon]);

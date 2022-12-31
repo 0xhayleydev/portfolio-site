@@ -1,14 +1,17 @@
-
 .promo-image {
     width: 50%;
 }
 
 .project-image {
-    width: 50%;
+    width: 100%;
+}
+
+.project-description {
+    width: 100%;
 }
 
 .section-container {
-    
+    width: 50%;
 }
 
 .section-container:nth-of-type(odd) {
