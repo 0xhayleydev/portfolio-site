@@ -109,11 +109,11 @@ a:hover {
     /* color: var(--odd-page-color); */
 }
 
-.page-section:nth-last-of-type(odd) a {
+.page-section:nth-of-type(odd) a {
     color: var(--even-page-color);
 }
 
-.page-section:nth-last-of-type(even) a {
+.page-section:nth-of-type(even) a {
     color: var(--odd-page-color);
 }
 
