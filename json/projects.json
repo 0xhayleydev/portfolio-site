@@ -11,7 +11,7 @@
     ],
     "blank-project": {
         "name": "",
-        "description": "",
+        "description": "This page is under development and needs to be updated.",
         "image": "",
         "icons": [
             "devicon-arduino-plain",
@@ -32,7 +32,7 @@
             {
                 "heading": "",
                 "image": "",
-                "description": ""
+                "description": "This page is under development and needs to be updated."
             }
         ]
     },
@@ -44,6 +44,7 @@
             "devicon-csharp-plain",
             "devicon-unity-original"
         ],
+        "itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator",
         "sections": [
             {
                 "heading": "About",
@@ -65,8 +66,7 @@
                 "image": "",
                 "description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
             }
-        ],
-        "itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator"
+        ]
     },
     "what-happened-to-charlie": {
         "name": "What Happened To Charlie?",
@@ -77,7 +77,14 @@
             "devicon-unity-original",
             "devicon-github-original"
         ],
-        "itchURL": "https://midenistis.itch.io/what-happened-to-charlie"
+        "itchURL": "https://midenistis.itch.io/what-happened-to-charlie",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
     },
     "gruttel-scuttle": {
         "name": "Gruttel Scuttle",
@@ -91,7 +98,9 @@
         "itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
         "sections": [
             {
-                "heading": "About"
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
             }
         ]
     },
@@ -104,7 +113,14 @@
             "devicon-unity-original",
             "devicon-github-original"
         ],
-        "itchURL": ""
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
     },
     "portfolio-site": {
         "name": "Portfolio Website",
@@ -116,7 +132,14 @@
             "devicon-css3-plain",
             "devicon-github-original"
         ],
-        "itchURL": ""
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
     },
     "discord-bots": {
         "name": "Discord Bots (Multiple)",
@@ -126,7 +149,14 @@
             "devicon-python-plain",
             "devicon-github-original"
         ],
-        "itchURL": ""
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
     },
     "image-filter": {
         "name": "Image Filter",
@@ -136,7 +166,14 @@
             "devicon-csharp-plain",
             "devicon-github-original"
         ],
-        "itchURL": ""
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
     },
     "arduino-cocktail-game": {
         "name": "Arduino Cocktail Game",
@@ -146,6 +183,13 @@
             "devicon-csharp-plain",
             "devicon-github-original"
         ],
-        "itchURL": ""
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "In Progress",
+                "image": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
         }
 }

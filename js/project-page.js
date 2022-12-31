@@ -5,6 +5,7 @@ const urlParams = new URLSearchParams(queryString);
 
 const project = urlParams.get('id');
 const pageBody = document.getElementsByClassName("body")[0];
+const title = document.getElementsByTagName("title")[0];
 
 fetch('./json/projects.json')
     .then(response => response.json())
@@ -86,6 +87,7 @@ function addInitialContent(projectJson) {
     
     let h1 = createElement("h1");
     h1.innerHTML = projectJson["name"];
+    title.innerHTML = "Hayley Davi.es | " + projectJson["name"];
     
     if (projectJson["itchURL"] != "") {   
         let a = createElement("a");
@@ -104,8 +106,6 @@ function addInitialContent(projectJson) {
     section.appendChild(getIcons(projectJson))
     return section;
 }
-
-
 
 function getIcons(projectJson) {
     let icons = projectJson["icons"];
