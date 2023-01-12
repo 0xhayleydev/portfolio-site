@@ -13,6 +13,7 @@
         "name": "",
         "description": "This page is under development and needs to be updated.",
         "image": "",
+                "video": "",
         "icons": [
             "devicon-arduino-plain",
             "devicon-cplusplus-plain",
@@ -32,6 +33,7 @@
             {
                 "heading": "",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -64,6 +66,7 @@
             {
                 "heading": "Reflection",
                 "image": "",
+                "video": "",
                 "description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
             }
         ]
@@ -82,6 +85,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -95,12 +99,38 @@
             "devicon-unity-original",
             "devicon-git-plain"
         ],
+        "trailer": "https://youtu.be/BES0WkYXtyE",
         "itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
         "sections": [
             {
-                "heading": "In Progress",
+                "heading": "Trailer",
                 "image": "",
-                "description": "This page is under development and needs to be updated."
+                "video": "https://www.youtube.com/embed/BES0WkYXtyE",
+                "description": ""
+            },
+            {
+                "heading": "About The Game",
+                "image": "",
+                "video": "",
+                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
+            },
+            {
+                "heading": "About The Game",
+                "image": "",
+                "video": "",
+                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
+            },
+            {
+                "heading": "About The Game",
+                "image": "",
+                "video": "",
+                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
+            },
+            {
+                "heading": "About The Game",
+                "image": "",
+                "video": "",
+                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
             }
         ]
     },
@@ -118,6 +148,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -137,6 +168,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -154,6 +186,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -171,6 +204,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
@@ -188,6 +222,7 @@
             {
                 "heading": "In Progress",
                 "image": "",
+                "video": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]

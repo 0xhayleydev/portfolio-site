@@ -41,6 +41,11 @@ function addContent(sectionJson) {
         subsection.appendChild(image);
     }
 
+    let video = getVideo(sectionJson);
+    if (video != null) {
+        subsection.appendChild(video);
+    }
+
     // get section description
     let description = getDescription(sectionJson);
     if (description != null) {
@@ -60,13 +65,24 @@ function getHeading(sectionJson) {
 }
 
 function getImage(sectionJson) {
-    if (sectionJson["image"] == "") {
+    if (sectionJson["image"] == "" || sectionJson["image"] == "") {
         return null;
     }
     let img = createElement("img");
-    img.className = "project-image";
+    img.className = "project-media";
     img.src = sectionJson["image"];
     return img;
+}
+
+function getVideo(sectionJson) {
+    if (sectionJson["video"] == null || sectionJson["video"] == "") {
+        console.log("There is no video");
+        return null;
+    }
+    let iframe = createElement("iframe");
+    iframe.src = sectionJson["video"];
+    iframe.classList = "project-media";
+    return iframe;
 }
 
 function getDescription(sectionJson) {
@@ -83,27 +99,25 @@ function createNewSection() {
 }
 
 function addInitialContent(projectJson) {
+    title.innerHTML = "Hayley Davi.es | " + projectJson["name"];
+
     let section = createNewSection();
+    let subsection = createNewSection();
+    subsection.className = "section-container";
     
     let h1 = createElement("h1");
     h1.innerHTML = projectJson["name"];
-    title.innerHTML = "Hayley Davi.es | " + projectJson["name"];
-    
-    if (projectJson["itchURL"] != "") {   
-        let a = createElement("a");
-        a.href = projectJson["itchURL"];
-        a.appendChild(h1);
-        section.appendChild(a);   
-    } else {
-        section.appendChild(h1);
-    }
+
+    subsection.appendChild(h1);
     
     let img = createElement("img");
     img.src = projectJson["image"];
-    img.className = "promo-image";
-    section.appendChild(img);
+    img.className = "project-media";
+    subsection.appendChild(img);
     
-    section.appendChild(getIcons(projectJson))
+    subsection.appendChild(getIcons(projectJson))
+    
+    section.appendChild(subsection);
     return section;
 }
 
