@@ -23,10 +23,11 @@ function parseProjects(name, json) {
 
 function showProject(json, id) {
     let project = json[id];
-    let container = createElement('div');
+    let container = createElement('a');
+    container.href = getURL(json, id);
     container.classList.add('three-promo-container');
     container.appendChild(getImage(project));
-    container.appendChild(getURL(project, id));
+    container.appendChild(getName(project));
     container.appendChild(getDescription(project));
     container.appendChild(getIcons(project));
     return container;
@@ -62,11 +63,8 @@ function getIcons(json) {
     return div;
 }
 
-function getURL(json, id) {    
-    var a = createElement('a');
-    a.href = "./project.html?id=" + id;
-    a.appendChild(getName(json));
-    return a;
+function getURL(json, id) {
+    return "./project.html?id=" + id;;
 }
 
 function createElement(type) {

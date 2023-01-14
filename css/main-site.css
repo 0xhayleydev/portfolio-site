@@ -17,6 +17,7 @@ body {
 
 a {
     color: var(--link-color);
+    text-decoration: none;
 }
 
 a:hover {
@@ -109,11 +110,11 @@ a:hover {
     /* color: var(--odd-page-color); */
 }
 
-.page-section:nth-of-type(odd) a {
+.page-section:nth-of-type(odd) a > h2 {
     color: var(--even-page-color);
 }
 
-.page-section:nth-of-type(even) a {
+.page-section:nth-of-type(even) a > h2 {
     color: var(--odd-page-color);
 }
 

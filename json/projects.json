@@ -93,7 +93,7 @@
     "gruttel-scuttle": {
         "name": "Gruttel Scuttle",
         "description": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
-        "image": "./img/projects/gruttel-scuttle.png",
+        "image": "./img/projects/gruttel-scuttle/gruttel-scuttle.png",
         "icons": [
             "devicon-csharp-plain",
             "devicon-unity-original",
@@ -103,28 +103,22 @@
         "itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
         "sections": [
             {
+                "heading": "About The Game",
+                "image": "img/projects/gruttel-scuttle/screenshot-one.png",
+                "video": "",
+                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!\n\nInteract with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
+            },
+            {
                 "heading": "Trailer",
                 "image": "",
                 "video": "https://www.youtube.com/embed/BES0WkYXtyE",
                 "description": ""
             },
             {
-                "heading": "About The Game",
+                "heading": "My Role",
                 "image": "",
                 "video": "",
-                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
-            },
-            {
-                "heading": "About The Game",
-                "image": "",
-                "video": "",
-                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
-            },
-            {
-                "heading": "About The Game",
-                "image": "",
-                "video": "",
-                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
+                "description": "For this project I focused on the implementation of mechanics."
             },
             {
                 "heading": "About The Game",

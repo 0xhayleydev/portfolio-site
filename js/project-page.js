@@ -138,3 +138,11 @@ function createElement(type) {
     let element = document.createElement(type);
     return element;
 }
+
+
+if (window.history.length <= 1) {
+    console.log(window.history.length);
+    let back = document.getElementsByClassName("back-button")[0];
+
+    back.classList = "back-button hidden";
+}

@@ -12,6 +12,7 @@
 
 .project-media {
     aspect-ratio: 16/9;
+    object-fit: cover;
     width: 100%;
     border: 5px solid white;
     border-radius: 5px;
@@ -23,4 +24,8 @@
 
 .page-section:nth-of-type(odd) > .section-container > .project-media {
     border-color: var(--even-page-color);
+}
+
+.back-button .hidden {
+    visibility: none;
 }
