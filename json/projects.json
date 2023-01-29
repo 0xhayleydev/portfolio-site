@@ -11,9 +11,9 @@
     ],
     "blank-project": {
         "name": "",
-        "description": "This page is under development and needs to be updated.",
+        "summary": "This page is under development and needs to be updated.",
+        "description": "",
         "image": "",
-                "video": "",
         "icons": [
             "devicon-arduino-plain",
             "devicon-cplusplus-plain",
@@ -34,13 +34,15 @@
                 "heading": "",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "flight-attendant-simulator": {
         "name": "Flight Attendant Simulator",
-        "description": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
+        "summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
+        "description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
         "image": "./img/projects/flight-attendant-simulator-promo.jpg",
         "icons": [
             "devicon-csharp-plain",
@@ -51,29 +53,37 @@
             {
                 "heading": "About",
                 "image": "./img/projects/flight-attendant-simulator-promo.jpg",
+                "video": "",
+                "media-showcase": "",
                 "description": "Flight Attendant Simulator is a VR experience made in Unity and C# over the course of 6 months during my final year of Game Design at Priestley College. I was the sole programmer for the project in a team of 4 - with the other 3 members being artists."
             },
             {
                 "heading": "My Role",
-                "image": "./img/image-placeholder.jpg",
+                "image": "./img/projects/flight-attendant-simulator-controls.jpg",
+                "video": "",
+                "media-showcase": "",
                 "description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
             },
             {
                 "heading": "Controls",
                 "image": "./img/image-placeholder.jpg",
+                "video": "",
+                "media-showcase": "",
                 "description": "The image here showcases the controls within the game."
             },
             {
                 "heading": "Reflection",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
             }
         ]
     },
     "what-happened-to-charlie": {
         "name": "What Happened To Charlie?",
-        "description": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
+        "summary": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
+        "description": "",
         "image": "./img/projects/what-happened-to-charlie-promo.png",
         "icons": [
             "devicon-csharp-plain",
@@ -86,13 +96,15 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "gruttel-scuttle": {
         "name": "Gruttel Scuttle",
-        "description": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
+        "summary": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
+        "description": "",
         "image": "./img/projects/gruttel-scuttle/gruttel-scuttle.png",
         "icons": [
             "devicon-csharp-plain",
@@ -106,6 +118,7 @@
                 "heading": "About The Game",
                 "image": "img/projects/gruttel-scuttle/screenshot-one.png",
                 "video": "",
+                "media-showcase": "",
                 "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!\n\nInteract with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
             },
             {
@@ -118,19 +131,22 @@
                 "heading": "My Role",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "For this project I focused on the implementation of mechanics."
             },
             {
                 "heading": "About The Game",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
             }
         ]
     },
     "poker-game": {
         "name": "Poker Game",
-        "description": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
+        "summary": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
+        "description": "",
         "image": "./img/projects/poker-game-promo.png",
         "icons": [
             "devicon-csharp-plain",
@@ -143,13 +159,15 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "portfolio-site": {
         "name": "Portfolio Website",
-        "description": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
+        "summary": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
+        "description": "",
         "image": "./img/projects/cdgamedev-github-io-promo.png",
         "icons": [
             "devicon-html5-plain",
@@ -163,13 +181,15 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "discord-bots": {
         "name": "Discord Bots (Multiple)",
-        "description": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
+        "summary": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
+        "description": "",
         "image": "./img/projects/the-eyes-bot-promo.png",
         "icons": [
             "devicon-python-plain",
@@ -181,13 +201,15 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "image-filter": {
         "name": "Image Filter",
-        "description": "For a University project I made a ",
+        "summary": "For a University project I made a ",
+        "description": "",
         "image": "./img/projects/tinkering-graphics-promo.jpg",
         "icons": [
             "devicon-csharp-plain",
@@ -199,13 +221,15 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
     },
     "arduino-cocktail-game": {
         "name": "Arduino Cocktail Game",
-        "description": "Utilising an Arduino as a custom controller for a cocktail game.",
+        "summary": "Utilising an Arduino as a custom controller for a cocktail game.",
+        "description": "",
         "image": "./img/projects/arduino-cocktail-game-promo.jpg",
         "icons": [
             "devicon-csharp-plain",
@@ -217,8 +241,9 @@
                 "heading": "In Progress",
                 "image": "",
                 "video": "",
+                "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
             }
         ]
-        }
+    }
 }
