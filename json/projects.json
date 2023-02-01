@@ -1,7 +1,7 @@
 {
     "games-order": [
+        "space-launch-vr",
         "gruttel-scuttle",
-        "poker-game",
         "flight-attendant-simulator"
     ],
     "projects-order": [
@@ -27,6 +27,27 @@
             "devicon-python-plain",
             "devicon-unity-original",
             "devicon-unrealengine-original"
+        ],
+        "itchURL": "",
+        "sections": [
+            {
+                "heading": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+                "video": "",
+                "media-showcase": "",
+                "description": "This page is under development and needs to be updated."
+            }
+        ]
+    },
+    "space-launch-vr": {
+        "name": "Space Launch VR",
+        "summary": "A student led project developed for the first rocket launch from UK soil - in collaboration with Spaceport Cornwall and Virgin Orbit.",
+        "description": "",
+        "image": "./img/projects/space-launch-vr/promo.png",
+        "icons": [
+            "devicon-csharp-plain",
+            "devicon-git-plain",
+            "devicon-unity-original"
         ],
         "itchURL": "",
         "sections": [
