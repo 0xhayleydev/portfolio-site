@@ -47,7 +47,7 @@ function getImage(json) {
 
 function getDescription(json) {
     let p = createElement('p');
-    p.innerHTML = json["description"];
+    p.innerHTML = json["summary"];
     return p;
 }
 

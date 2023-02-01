@@ -117,6 +117,10 @@ function addInitialContent(projectJson) {
     
     subsection.appendChild(getIcons(projectJson))
     
+    let p = createElement("p");
+    p.innerHTML = projectJson["description"];
+    subsection.appendChild(p);
+    
     section.appendChild(subsection);
     return section;
 }

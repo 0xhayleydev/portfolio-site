@@ -13,7 +13,7 @@
         "name": "",
         "summary": "This page is under development and needs to be updated.",
         "description": "",
-        "image": "",
+        "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
         "icons": [
             "devicon-arduino-plain",
             "devicon-cplusplus-plain",
@@ -32,7 +32,7 @@
         "sections": [
             {
                 "heading": "",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -43,7 +43,7 @@
         "name": "Flight Attendant Simulator",
         "summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
         "description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
-        "image": "./img/projects/flight-attendant-simulator-promo.jpg",
+        "image": "./img/projects/flight-attendant-simulator/promo.png",
         "icons": [
             "devicon-csharp-plain",
             "devicon-unity-original"
@@ -52,28 +52,28 @@
         "sections": [
             {
                 "heading": "About",
-                "image": "./img/projects/flight-attendant-simulator-promo.jpg",
+                "image": "./img/projects/flight-attendant-simulator/promo.png",
                 "video": "",
                 "media-showcase": "",
                 "description": "Flight Attendant Simulator is a VR experience made in Unity and C# over the course of 6 months during my final year of Game Design at Priestley College. I was the sole programmer for the project in a team of 4 - with the other 3 members being artists."
             },
             {
                 "heading": "My Role",
-                "image": "./img/projects/flight-attendant-simulator-controls.jpg",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
             },
             {
                 "heading": "Controls",
-                "image": "./img/image-placeholder.jpg",
+                "image": "./img/projects/flight-attendant-simulator/controls.png",
                 "video": "",
                 "media-showcase": "",
                 "description": "The image here showcases the controls within the game."
             },
             {
                 "heading": "Reflection",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
@@ -94,7 +94,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -129,14 +129,14 @@
             },
             {
                 "heading": "My Role",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "For this project I focused on the implementation of mechanics."
             },
             {
                 "heading": "About The Game",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
@@ -157,7 +157,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -179,7 +179,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -199,7 +199,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -219,7 +219,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
@@ -239,7 +239,7 @@
         "sections": [
             {
                 "heading": "In Progress",
-                "image": "",
+                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
                 "video": "",
                 "media-showcase": "",
                 "description": "This page is under development and needs to be updated."
