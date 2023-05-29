@@ -1,270 +1,248 @@
 {
-    "games-order": [
-        "space-launch-vr",
-        "gruttel-scuttle",
-        "flight-attendant-simulator"
-    ],
-    "projects-order": [
-        "portfolio-site",
-        "discord-bots",
-        "arduino-cocktail-game"
-    ],
-    "blank-project": {
-        "name": "",
-        "summary": "This page is under development and needs to be updated.",
-        "description": "",
-        "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-        "icons": [
-            "devicon-arduino-plain",
-            "devicon-cplusplus-plain",
-            "devicon-csharp-plain",
-            "devicon-css3-plain",
-            "devicon-git-plain",
-            "devicon-github-original",
-            "devicon-html5-plain",
-            "devicon-javascript-plain",
-            "devicon-latex-original",
-            "devicon-python-plain",
-            "devicon-unity-original",
-            "devicon-unrealengine-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "space-launch-vr": {
-        "name": "Space Launch VR",
-        "summary": "A student led project developed for the first rocket launch from UK soil - in collaboration with Spaceport Cornwall and Virgin Orbit.",
-        "description": "",
-        "image": "./img/projects/space-launch-vr/promo.png",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-git-plain",
-            "devicon-unity-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "flight-attendant-simulator": {
-        "name": "Flight Attendant Simulator",
-        "summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
-        "description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
-        "image": "./img/projects/flight-attendant-simulator/promo.png",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-unity-original"
-        ],
-        "itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator",
-        "sections": [
-            {
-                "heading": "About",
-                "image": "./img/projects/flight-attendant-simulator/promo.png",
-                "video": "",
-                "media-showcase": "",
-                "description": "Flight Attendant Simulator is a VR experience made in Unity and C# over the course of 6 months during my final year of Game Design at Priestley College. I was the sole programmer for the project in a team of 4 - with the other 3 members being artists."
-            },
-            {
-                "heading": "My Role",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
-            },
-            {
-                "heading": "Controls",
-                "image": "./img/projects/flight-attendant-simulator/controls.png",
-                "video": "",
-                "media-showcase": "",
-                "description": "The image here showcases the controls within the game."
-            },
-            {
-                "heading": "Reflection",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
-            }
-        ]
-    },
-    "what-happened-to-charlie": {
-        "name": "What Happened To Charlie?",
-        "summary": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
-        "description": "",
-        "image": "./img/projects/what-happened-to-charlie-promo.png",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-unity-original",
-            "devicon-github-original"
-        ],
-        "itchURL": "https://midenistis.itch.io/what-happened-to-charlie",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "gruttel-scuttle": {
-        "name": "Gruttel Scuttle",
-        "summary": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
-        "description": "",
-        "image": "./img/projects/gruttel-scuttle/gruttel-scuttle.png",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-unity-original",
-            "devicon-git-plain"
-        ],
-        "trailer": "https://youtu.be/BES0WkYXtyE",
-        "itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
-        "sections": [
-            {
-                "heading": "About The Game",
-                "image": "img/projects/gruttel-scuttle/screenshot-one.png",
-                "video": "",
-                "media-showcase": "",
-                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!\n\nInteract with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
-            },
-            {
-                "heading": "Trailer",
-                "image": "",
-                "video": "https://www.youtube.com/embed/BES0WkYXtyE",
-                "description": ""
-            },
-            {
-                "heading": "My Role",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "For this project I focused on the implementation of mechanics."
-            },
-            {
-                "heading": "About The Game",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!"
-            }
-        ]
-    },
-    "poker-game": {
-        "name": "Poker Game",
-        "summary": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
-        "description": "",
-        "image": "./img/projects/poker-game-promo.png",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-unity-original",
-            "devicon-github-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "portfolio-site": {
-        "name": "Portfolio Website",
-        "summary": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
-        "description": "",
-        "image": "./img/projects/cdgamedev-github-io-promo.png",
-        "icons": [
-            "devicon-html5-plain",
-            "devicon-javascript-plain",
-            "devicon-css3-plain",
-            "devicon-github-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "discord-bots": {
-        "name": "Discord Bots (Multiple)",
-        "summary": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
-        "description": "",
-        "image": "./img/projects/the-eyes-bot-promo.png",
-        "icons": [
-            "devicon-python-plain",
-            "devicon-github-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "image-filter": {
-        "name": "Image Filter",
-        "summary": "For a University project I made a ",
-        "description": "",
-        "image": "./img/projects/tinkering-graphics-promo.jpg",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-github-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    },
-    "arduino-cocktail-game": {
-        "name": "Arduino Cocktail Game",
-        "summary": "Utilising an Arduino as a custom controller for a cocktail game.",
-        "description": "",
-        "image": "./img/projects/arduino-cocktail-game-promo.jpg",
-        "icons": [
-            "devicon-csharp-plain",
-            "devicon-github-original"
-        ],
-        "itchURL": "",
-        "sections": [
-            {
-                "heading": "In Progress",
-                "image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
-                "video": "",
-                "media-showcase": "",
-                "description": "This page is under development and needs to be updated."
-            }
-        ]
-    }
+	"games-order": ["space-launch-vr", "gruttel-scuttle", "flight-attendant-simulator"],
+	"projects-order": ["portfolio-site", "discord-bots", "arduino-cocktail-game"],
+	"blank-project": {
+		"name": "",
+		"summary": "This page is under development and needs to be updated.",
+		"description": "",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": [
+			"devicon-arduino-plain",
+			"devicon-cplusplus-plain",
+			"devicon-csharp-plain",
+			"devicon-css3-plain",
+			"devicon-git-plain",
+			"devicon-github-original",
+			"devicon-html5-plain",
+			"devicon-javascript-plain",
+			"devicon-latex-original",
+			"devicon-python-plain",
+			"devicon-unity-original",
+			"devicon-unrealengine-original"
+		],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"space-launch-vr": {
+		"name": "Space Launch VR",
+		"summary": "A student led project developed for the first rocket launch from UK soil - in collaboration with Spaceport Cornwall and Virgin Orbit.",
+		"description": "",
+		"image": "./img/projects/space-launch-vr/promo.png",
+		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "About the Project",
+				"image": "./img/projects/space-launch-vr/cosmic-girl-takeoff.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Space Launch VR is a project designed to highlight the work which goes into making a space flight work. Virgin Orbit wanted to launch a rocket from UK soil and as such, they partnered with Spaceport Cornwall to make this happen. This led to my team getting funding to develop their idea of having a digital gallery which could teach children about space. This project gives in-depth tours and talks from those involved in the First Rocket Launch from UK soil."
+			},
+			{
+				"heading": "My Role",
+				"image": "./img/projects/space-launch-vr/cosmic-girl-flying.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "As a programmer, my role within the project was to create new and optimise existing code. When I joined, the primary goal was to ensure the project would run on the Meta Quest 2. This involved debugging and optimising code as well as scenes within Unity."
+			},
+			{
+				"heading": "Where to Play",
+				"image": "./img/projects/space-launch-vr/stage-3-separation.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Unfortunately, the launch was unsuccessful following a fuel filter malfunction. This led to the project not releasing for general download. With Virgin Orbit filing for bankruptcy, the project is at the discretion of Spaceport Cornwall who will decide if the project gets released or not."
+			}
+		]
+	},
+	"flight-attendant-simulator": {
+		"name": "Flight Attendant Simulator",
+		"summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
+		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
+		"image": "./img/projects/flight-attendant-simulator/promo.png",
+		"icons": ["devicon-csharp-plain", "devicon-unity-original"],
+		"itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator",
+		"sections": [
+			{
+				"heading": "About",
+				"image": "./img/projects/flight-attendant-simulator/promo.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Flight Attendant Simulator is a VR experience made in Unity and C# over the course of 6 months during my final year of Game Design at Priestley College. I was the sole programmer for the project in a team of 4 - with the other 3 members being artists."
+			},
+			{
+				"heading": "My Role",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "As the sole programmer, my role entailed working on all technical aspects of the game. This involved the implementation of mechanics, debugging of code and placement of assets within Unity. The project utilised SteamVR for its VR integration - allowing it to theoretically work on all Desktop VR headsets, however, this was only tested on the Oculus Rift CV1 headset."
+			},
+			{
+				"heading": "Controls",
+				"image": "./img/projects/flight-attendant-simulator/controls.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "The image here showcases the controls within the game."
+			},
+			{
+				"heading": "Reflection",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
+			}
+		]
+	},
+	"what-happened-to-charlie": {
+		"name": "What Happened To Charlie?",
+		"summary": "Following her fiancés death, Maria isn't quite herself; not only is she haunted by the guilt, but maybe by something more.",
+		"description": "",
+		"image": "./img/projects/what-happened-to-charlie-promo.png",
+		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-github-original"],
+		"itchURL": "https://midenistis.itch.io/what-happened-to-charlie",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"gruttel-scuttle": {
+		"name": "Gruttel Scuttle",
+		"summary": "Making a unique, fast paced colony management/strategy game in a team of 15 people.",
+		"description": "",
+		"image": "./img/projects/gruttel-scuttle/promo_new.png",
+		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-git-plain"],
+		"trailer": "https://youtu.be/BES0WkYXtyE",
+		"itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
+		"sections": [
+			{
+				"heading": "About The Game",
+				"image": "img/projects/gruttel-scuttle/gameplay-1.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!\n\nInteract with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
+			},
+			{
+				"heading": "My Role",
+				"image": "img/projects/gruttel-scuttle/gameplay-0.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "As a programmer, my primary role is to create new and maintain existing code within any game which I work on. Gruttel Scuttle is no exception. I implemented a variety of mechanics across this game, primarily focused on ensuring that designers could easily implement and interface with the mechanics I had created. I worked alongside two other programmers in this endeavour."
+			},
+			{
+				"heading": "Trailer",
+				"image": "",
+				"video": "https://www.youtube.com/embed/BES0WkYXtyE",
+				"description": ""
+			},
+			{
+				"heading": "Where to Play",
+				"image": "",
+				"video": "",
+				"media-showcase": "",
+				"description": "Check out Gruttel Scuttle at the link below:\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1251095?border_width=2&amp;bg_color=141413&amp;fg_color=ffffff&amp;link_color=ea3a90&amp;border_color=1c022f\" width=\"554\" height=\"169\"><a href=\"https://trojanmouse-games.itch.io/gruttel-scuttle\">Gruttel Scuttle by TrojanMouse Games, Phomentix - Jay Dixon, CassyCornish, Hayley Davies, Matthew Roberts, Otis Hull, Abbie Thompson, Ryan Mints, Eggchanted, IJones002, Sophie James, Oliver_Britland, rosariarabbit, Nyah Payne, JoshGames</a></iframe>"
+			}
+		]
+	},
+	"poker-game": {
+		"name": "Poker Game",
+		"summary": "Programming a Texas Hold'em Poker game in C# and Unity to demonstrate multiplayer programming, AI programming and optimisation of code.",
+		"description": "",
+		"image": "./img/projects/poker-game-promo.png",
+		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-github-original"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"portfolio-site": {
+		"name": "Portfolio Website",
+		"summary": "Making a custom portfolio site in HTML, CSS and JavaScript (from scratch).",
+		"description": "",
+		"image": "./img/projects/cdgamedev-github-io-promo.png",
+		"icons": [
+			"devicon-html5-plain",
+			"devicon-javascript-plain",
+			"devicon-css3-plain",
+			"devicon-github-original"
+		],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"discord-bots": {
+		"name": "Discord Bots (Multiple)",
+		"summary": "Creating multiple unique and usable bots for Discord, improving both productivity and engagement.",
+		"description": "",
+		"image": "./img/projects/the-eyes-bot-promo.png",
+		"icons": ["devicon-python-plain", "devicon-github-original"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"image-filter": {
+		"name": "Image Filter",
+		"summary": "For a University project I made a ",
+		"description": "",
+		"image": "./img/projects/tinkering-graphics-promo.jpg",
+		"icons": ["devicon-csharp-plain", "devicon-github-original"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	},
+	"arduino-cocktail-game": {
+		"name": "Arduino Cocktail Game",
+		"summary": "Utilising an Arduino as a custom controller for a cocktail game.",
+		"description": "",
+		"image": "./img/projects/arduino-cocktail-game-promo.jpg",
+		"icons": ["devicon-csharp-plain", "devicon-github-original"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "In Progress",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This page is under development and needs to be updated."
+			}
+		]
+	}
 }
