@@ -18,14 +18,26 @@
     border-radius: 5px;
 }
 
-.page-section:nth-of-type(even) > .section-container > .project-media {
+.page-section:nth-of-type(even)>.section-container>.project-media {
     border-color: var(--odd-page-color);
 }
 
-.page-section:nth-of-type(odd) > .section-container > .project-media {
+.page-section:nth-of-type(odd)>.section-container>.project-media {
     border-color: var(--even-page-color);
 }
 
 .back-button .hidden {
     visibility: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.page-section:nth-of-type(even)>.section-container>p>a {
+    color: var(--odd-page-color);
+}
+
+.page-section:nth-of-type(odd)>.section-container>p>a {
+    color: var(--even-page-color);
 }

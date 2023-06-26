@@ -1,13 +1,13 @@
-.back-button {
+.home-button {
     position: fixed;
     text-align: center;
     top: 5vh;
     left: 5vh;
     z-index: 100;
     color: grey;
-    text-decoration: none;;
+    text-decoration: none;
 }
 
-.back-button:hover {
+.home-button:hover {
     opacity: 50%;
 }

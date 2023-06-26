@@ -1,9 +1,9 @@
 {
 	"games-order": ["space-launch-vr", "gruttel-scuttle", "flight-attendant-simulator"],
-	"projects-order": ["portfolio-site", "discord-bots", "arduino-cocktail-game"],
+	"projects-order": ["dissertation-project", "image-filter", "arduino-cocktail-game"],
 	"blank-project": {
 		"name": "",
-		"summary": "This page is under development and needs to be updated.",
+		"summary": "This project has been shown in error. Apologies whilst I work on a fix.",
 		"description": "",
 		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 		"icons": [
@@ -27,7 +27,24 @@
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "This page is under development and needs to be updated."
+				"description": "This project has been shown in error. Apologies whilst I work on a fix."
+			}
+		]
+	},
+	"dissertation-project": {
+		"name": "Dissertation - Anomalous Transactions in MMOs",
+		"summary": "This project has been shown in error. Apologies whilst I work on a fix.",
+		"description": "",
+		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"icons": ["devicon-github-original", "devicon-latex-original", "devicon-python-plain"],
+		"itchURL": "",
+		"sections": [
+			{
+				"heading": "",
+				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"video": "",
+				"media-showcase": "",
+				"description": "This project has been shown in error. Apologies whilst I work on a fix."
 			}
 		]
 	},
@@ -44,21 +61,35 @@
 				"image": "./img/projects/space-launch-vr/cosmic-girl-takeoff.png",
 				"video": "",
 				"media-showcase": "",
-				"description": "Space Launch VR is a project designed to highlight the work which goes into making a space flight work. Virgin Orbit wanted to launch a rocket from UK soil and as such, they partnered with Spaceport Cornwall to make this happen. This led to my team getting funding to develop their idea of having a digital gallery which could teach children about space. This project gives in-depth tours and talks from those involved in the First Rocket Launch from UK soil."
+				"description": "Space Launch VR is a project designed to highlight the work which goes into making a space flight work. Virgin Orbit partnered with Spaceport Cornwall to launch a rocket from UK soil. This led to my team getting funding to develop their idea of having a digital gallery which could teach children about space. This project gives in-depth tours and talks from those involved in the First Rocket Launch from UK soil."
 			},
 			{
 				"heading": "My Role",
 				"image": "./img/projects/space-launch-vr/cosmic-girl-flying.png",
 				"video": "",
 				"media-showcase": "",
-				"description": "As a programmer, my role within the project was to create new and optimise existing code. When I joined, the primary goal was to ensure the project would run on the Meta Quest 2. This involved debugging and optimising code as well as scenes within Unity."
+				"description": "As a programmer, my role within the project was to create new and optimise existing code. When I joined, the primary goal was to ensure the project would run on the Meta Quest 2. This involved debugging and optimising code as well as scenes within Unity. As a small team, I had my hand in a lot of different systems across the game."
+			},
+			{
+				"heading": "Showcases",
+				"image": "./img/projects/space-launch-vr/team-photo.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "We exhibited the game a variety of times at a handful of events, including Goonhilly 60, an event in Kensington as well as other various events around the country."
 			},
 			{
 				"heading": "Where to Play",
 				"image": "./img/projects/space-launch-vr/stage-3-separation.png",
 				"video": "",
 				"media-showcase": "",
-				"description": "Unfortunately, the launch was unsuccessful following a fuel filter malfunction. This led to the project not releasing for general download. With Virgin Orbit filing for bankruptcy, the project is at the discretion of Spaceport Cornwall who will decide if the project gets released or not."
+				"description": "Unfortunately, the launch was unsuccessful following a fuel filter malfunction. However, you can still experience the project on Oculus Quest 2 or Quest Pro <a href=https://www.oculus.com/experiences/quest/5806581506089142/>here</a>!"
+			},
+			{
+				"heading": "In the News",
+				"image": "./img/projects/space-launch-vr/stage-2-separation.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Checkout these articles for information on the project:<br><a href=https://www.business-live.co.uk/enterprise/falmouth-university-create-space-everyone-27026902>Falmouth University create 'space for everyone' with launch of Spaceport VR experience</a><br><a href=https://www.falmouth.ac.uk/news/mission-possible-falmouth-students-unveil-vr-rocket-launch-experience>Mission Possible: Falmouth students unveil VR rocket launch experience</a>"
 			}
 		]
 	},
@@ -131,7 +162,7 @@
 				"image": "img/projects/gruttel-scuttle/gameplay-1.png",
 				"video": "",
 				"media-showcase": "",
-				"description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!\n\nInteract with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
+				"description": "Welcome to the planet of Holmfen, home to the ditzy, newt-like gruttels!<br>Interact with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions. Be careful as when the rubbish starts to pile up, so do the gruttels' stress levels! Manage their stress until the timer runs out the successfully clean Holmfen!"
 			},
 			{
 				"heading": "My Role",
@@ -151,7 +182,7 @@
 				"image": "",
 				"video": "",
 				"media-showcase": "",
-				"description": "Check out Gruttel Scuttle at the link below:\n\n<iframe frameborder=\"0\" src=\"https://itch.io/embed/1251095?border_width=2&amp;bg_color=141413&amp;fg_color=ffffff&amp;link_color=ea3a90&amp;border_color=1c022f\" width=\"554\" height=\"169\"><a href=\"https://trojanmouse-games.itch.io/gruttel-scuttle\">Gruttel Scuttle by TrojanMouse Games, Phomentix - Jay Dixon, CassyCornish, Hayley Davies, Matthew Roberts, Otis Hull, Abbie Thompson, Ryan Mints, Eggchanted, IJones002, Sophie James, Oliver_Britland, rosariarabbit, Nyah Payne, JoshGames</a></iframe>"
+				"description": "Check out Gruttel Scuttle at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/1251095?border_width=2&amp;bg_color=141413&amp;fg_color=ffffff&amp;link_color=ea3a90&amp;border_color=1c022f\" width=\"554\" height=\"169\"><a href=\"https://trojanmouse-games.itch.io/gruttel-scuttle\">Gruttel Scuttle by TrojanMouse Games, Phomentix - Jay Dixon, CassyCornish, Hayley Davies, Matthew Roberts, Otis Hull, Abbie Thompson, Ryan Mints, Eggchanted, IJones002, Sophie James, Oliver_Britland, rosariarabbit, Nyah Payne, JoshGames</a></iframe>"
 			}
 		]
 	},
@@ -213,7 +244,7 @@
 	},
 	"image-filter": {
 		"name": "Image Filter",
-		"summary": "For a University project I made a ",
+		"summary": "For a University project I made a novel image filter for a social media app",
 		"description": "",
 		"image": "./img/projects/tinkering-graphics-promo.jpg",
 		"icons": ["devicon-csharp-plain", "devicon-github-original"],
