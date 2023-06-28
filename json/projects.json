@@ -51,7 +51,7 @@
 	"space-launch-vr": {
 		"name": "Space Launch VR",
 		"summary": "A student led project developed for the first rocket launch from UK soil - in collaboration with Spaceport Cornwall and Virgin Orbit.",
-		"description": "",
+		"description": "<a href=https://www.oculus.com/experiences/quest/5806581506089142/>PLAY NOW (Oculus Store)</a>",
 		"image": "./img/projects/space-launch-vr/promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
 		"itchURL": "",
@@ -78,25 +78,25 @@
 				"description": "We exhibited the game a variety of times at a handful of events, including Goonhilly 60, an event in Kensington as well as other various events around the country."
 			},
 			{
-				"heading": "Where to Play",
-				"image": "./img/projects/space-launch-vr/stage-3-separation.png",
-				"video": "",
-				"media-showcase": "",
-				"description": "Unfortunately, the launch was unsuccessful following a fuel filter malfunction. However, you can still experience the project on Oculus Quest 2 or Quest Pro <a href=https://www.oculus.com/experiences/quest/5806581506089142/>here</a>!"
-			},
-			{
 				"heading": "In the News",
 				"image": "./img/projects/space-launch-vr/stage-2-separation.png",
 				"video": "",
 				"media-showcase": "",
 				"description": "Checkout these articles for information on the project:<br><a href=https://www.business-live.co.uk/enterprise/falmouth-university-create-space-everyone-27026902>Falmouth University create 'space for everyone' with launch of Spaceport VR experience</a><br><a href=https://www.falmouth.ac.uk/news/mission-possible-falmouth-students-unveil-vr-rocket-launch-experience>Mission Possible: Falmouth students unveil VR rocket launch experience</a>"
+			},
+			{
+				"heading": "Where to Play",
+				"image": "./img/projects/space-launch-vr/stage-3-separation.png",
+				"video": "",
+				"media-showcase": "",
+				"description": "Unfortunately, the launch was unsuccessful following a fuel filter malfunction. However, you can still experience the project on Oculus Quest 2 or Quest Pro.<br><br><a href=https://www.oculus.com/experiences/quest/5806581506089142/>Play Now via the Oculus Store</a>"
 			}
 		]
 	},
 	"flight-attendant-simulator": {
 		"name": "Flight Attendant Simulator",
 		"summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
-		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
+		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.<br><a href=https://cdgamedev.itch.io/flight-attendant-simulator/>PLAY NOW (itch.io)</a>",
 		"image": "./img/projects/flight-attendant-simulator/promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original"],
 		"itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator",
@@ -128,6 +128,13 @@
 				"video": "",
 				"media-showcase": "",
 				"description": "The game itself is probably one of my proudest. We worked hard to complete what we did and managed out time and scope effectively for the game. Working on this game created a level of "
+			},
+			{
+				"heading": "Where to Play",
+				"image": "",
+				"video": "",
+				"media-showcase": "",
+				"description": "Check out Flight Attendant Simulator at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/435956?bg_color=1b1b1b&amp;fg_color=bcbcbc&amp;link_color=1DCDFE&amp;border_color=333333\" width=\"552\" height=\"167\"><a href=\"https://cdgamedev.itch.io/flight-attendant-simulator\">Flight Attendant Simulator by Hayley Davies</a></iframe>"
 			}
 		]
 	},
@@ -182,7 +189,7 @@
 				"image": "",
 				"video": "",
 				"media-showcase": "",
-				"description": "Check out Gruttel Scuttle at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/1251095?border_width=2&amp;bg_color=141413&amp;fg_color=ffffff&amp;link_color=ea3a90&amp;border_color=1c022f\" width=\"554\" height=\"169\"><a href=\"https://trojanmouse-games.itch.io/gruttel-scuttle\">Gruttel Scuttle by TrojanMouse Games, Phomentix - Jay Dixon, CassyCornish, Hayley Davies, Matthew Roberts, Otis Hull, Abbie Thompson, Ryan Mints, Eggchanted, IJones002, Sophie James, Oliver_Britland, rosariarabbit, Nyah Payne, JoshGames</a></iframe>"
+				"description": "Check out Gruttel Scuttle at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/1251095?bg_color=1b1b1b&amp;fg_color=bcbcbc&amp;link_color=1DCDFE&amp;border_color=333333\" width=\"554\" height=\"169\"><a href=\"https://trojanmouse-games.itch.io/gruttel-scuttle\">Gruttel Scuttle by TrojanMouse Games, Phomentix - Jay Dixon, CassyCornish, Hayley Davies, Matthew Roberts, Otis Hull, Abbie Thompson, Ryan Mints, Eggchanted, IJones002, Sophie James, Oliver_Britland, rosariarabbit, Nyah Payne, JoshGames</a></iframe>"
 			}
 		]
 	},

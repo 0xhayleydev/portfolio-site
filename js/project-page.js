@@ -98,7 +98,7 @@ function createNewSection() {
 }
 
 function addInitialContent(projectJson) {
-	title.innerHTML = "Hayley Davi.es | " + projectJson["name"];
+	title.innerHTML = projectJson["name"] + " - hayleydavi.es";
 
 	let section = createNewSection();
 	let subsection = createNewSection();
