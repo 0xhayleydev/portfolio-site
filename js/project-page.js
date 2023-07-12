@@ -14,6 +14,10 @@ fetch("./json/projects.json")
 function loadProject(json) {
 	let projectJson = json[project];
 
+	if (projectJson == null) {
+		projectJson = json["blank-project"];
+	}
+
 	pageBody.appendChild(addInitialContent(projectJson));
 
 	let projectSections = projectJson["sections"];

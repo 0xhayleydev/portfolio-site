@@ -4,7 +4,7 @@
 	"blank-project": {
 		"name": "",
 		"summary": "This project has been shown in error. Apologies whilst I work on a fix.",
-		"description": "",
+		"description": "This project has been shown in error. Apologies whilst I work on a fix.",
 		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 		"icons": [
 			"devicon-arduino-plain",
@@ -33,9 +33,9 @@
 	},
 	"dissertation-project": {
 		"name": "Dissertation - Anomalous Transactions in MMOs",
-		"summary": "This project has been shown in error. Apologies whilst I work on a fix.",
+		"summary": "I investigate solutions to detecting Real Money Trading which was plaguing Lost Ark, an MMORPG I used to play.",
 		"description": "",
-		"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+		"image": "./img/projects/dissertation-project/promo.png",
 		"icons": ["devicon-github-original", "devicon-latex-original", "devicon-python-plain"],
 		"itchURL": "",
 		"sections": [
@@ -44,7 +44,7 @@
 				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
 				"video": "",
 				"media-showcase": "",
-				"description": "This project has been shown in error. Apologies whilst I work on a fix."
+				"description": "I investigate solutions to detecting Real Money Trading which was plaguing Lost Ark, an MMORPG I used to play."
 			}
 		]
 	},
