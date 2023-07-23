@@ -20,7 +20,8 @@
 			"devicon-unity-original",
 			"devicon-unrealengine-original"
 		],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "",
@@ -37,24 +38,61 @@
 		"description": "",
 		"image": "./img/projects/dissertation-project/promo.png",
 		"icons": ["devicon-github-original", "devicon-latex-original", "devicon-python-plain"],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "https://github.com/cdgamedev-university/dissertation",
 		"sections": [
 			{
-				"heading": "",
-				"image": "https://via.placeholder.com/1920x1080.png?text=Insert+image+which+relates+to+section.",
+				"heading": "The Dissertation",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
 				"video": "",
 				"media-showcase": "",
-				"description": "I investigate solutions to detecting Real Money Trading which was plaguing Lost Ark, an MMORPG I used to play."
+				"description": ""
+			},
+			{
+				"heading": "The Game",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
+				"video": "",
+				"media-showcase": "",
+				"description": "Lost Ark is an MMORPG developed by Smilegate and published outside of South Korea by Amazon Games."
+			},
+			{
+				"heading": "The Problem",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
+				"video": "",
+				"media-showcase": "",
+				"description": "Like many MMORPGs, players can trade in-game items for in-game gold. This gold can be bought legitamately via Royal Crystals which are purchased using real money."
+			},
+			{
+				"heading": "Why Lost Ark?",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
+				"video": "",
+				"media-showcase": "",
+				"description": "I chose Lost Ark due to my deep understanding of Lost Ark's ecosystem and how its players function. Whilst speaking to guild members, I discovered that many of them were using grey-market sites to boost themselves forward in the game via Real Money Trading (RMT)."
+			},
+			{
+				"heading": "What is Real Money Trading (RMT)?",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
+				"video": "",
+				"media-showcase": "",
+				"description": "RMT is the spending of Real World currency in exchange for goods in a video game. This is typically a violation of a game's Terms of Service as it allows markets outside of the game's own to sell in-game goods. In Lost Ark's case, this is Gold."
+			},
+			{
+				"heading": "Why is this a problem?",
+				"image": "./img/projects/dissertation-project/lost-ark-title.jpg",
+				"video": "",
+				"media-showcase": "",
+				"description": "For the game, "
 			}
 		]
 	},
 	"space-launch-vr": {
 		"name": "Space Launch VR",
 		"summary": "A student led project developed for the first rocket launch from UK soil - in collaboration with Spaceport Cornwall and Virgin Orbit.",
-		"description": "<a href=https://www.oculus.com/experiences/quest/5806581506089142/>PLAY NOW (Oculus Store)</a>",
+		"description": "",
 		"image": "./img/projects/space-launch-vr/promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-git-plain", "devicon-unity-original"],
-		"itchURL": "",
+		"URL": "https://www.oculus.com/experiences/quest/5806581506089142/",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "About the Project",
@@ -96,10 +134,11 @@
 	"flight-attendant-simulator": {
 		"name": "Flight Attendant Simulator",
 		"summary": "Learning how to implement VR into Unity in a team of 3 Artists and 1 Programmer.",
-		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.<br><a href=https://cdgamedev.itch.io/flight-attendant-simulator/>PLAY NOW (itch.io)</a>",
+		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
 		"image": "./img/projects/flight-attendant-simulator/promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original"],
-		"itchURL": "https://cdgamedev.itch.io/flight-attendant-simulator",
+		"URL": "https://cdgamedev.itch.io/flight-attendant-simulator",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "About",
@@ -144,7 +183,8 @@
 		"description": "",
 		"image": "./img/projects/what-happened-to-charlie-promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-github-original"],
-		"itchURL": "https://midenistis.itch.io/what-happened-to-charlie",
+		"URL": "https://midenistis.itch.io/what-happened-to-charlie",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "In Progress",
@@ -162,7 +202,8 @@
 		"image": "./img/projects/gruttel-scuttle/promo_new.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-git-plain"],
 		"trailer": "https://youtu.be/BES0WkYXtyE",
-		"itchURL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
+		"URL": "https://trojanmouse-games.itch.io/gruttel-scuttle",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "About The Game",
@@ -199,7 +240,8 @@
 		"description": "",
 		"image": "./img/projects/poker-game-promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original", "devicon-github-original"],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "In Progress",
@@ -221,7 +263,8 @@
 			"devicon-css3-plain",
 			"devicon-github-original"
 		],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "In Progress",
@@ -238,7 +281,8 @@
 		"description": "",
 		"image": "./img/projects/the-eyes-bot-promo.png",
 		"icons": ["devicon-python-plain", "devicon-github-original"],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "",
 		"sections": [
 			{
 				"heading": "In Progress",
@@ -255,7 +299,8 @@
 		"description": "",
 		"image": "./img/projects/tinkering-graphics-promo.jpg",
 		"icons": ["devicon-csharp-plain", "devicon-github-original"],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "https://github.com/cdgamedev-university/COMP120-A1-Graphics",
 		"sections": [
 			{
 				"heading": "In Progress",
@@ -272,7 +317,8 @@
 		"description": "",
 		"image": "./img/projects/arduino-cocktail-game-promo.jpg",
 		"icons": ["devicon-csharp-plain", "devicon-github-original"],
-		"itchURL": "",
+		"URL": "",
+		"SourceURL": "https://github.com/cdgamedev-university/COMP140-A1-Artefact",
 		"sections": [
 			{
 				"heading": "In Progress",
