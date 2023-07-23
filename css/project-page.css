@@ -14,16 +14,28 @@
     aspect-ratio: 16/9;
     object-fit: cover;
     width: 100%;
-    border: 5px solid white;
-    border-radius: 5px;
+    border: 5px solid var(--accent);
+    border-radius: 25px;
 }
 
-.page-section:nth-of-type(even)>.section-container>.project-media {
-    border-color: var(--odd-page-color);
+.project-url-container {
+    display: flex;
 }
 
-.page-section:nth-of-type(odd)>.section-container>.project-media {
-    border-color: var(--even-page-color);
+.project-url {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 25%;
+    background-color: var(--accent);
+    border: 5px solid var(--accent);
+    border-radius: 25px;
+    text-decoration: none;
+    background-color: var(--secondary);
+}
+
+.page-section:nth-of-type(odd) .project-url {
+    background-color: var(--background);
 }
 
 .back-button .hidden {
@@ -32,12 +44,4 @@
 
 a {
     text-decoration: underline;
-}
-
-.page-section:nth-of-type(even)>.section-container>p>a {
-    color: var(--odd-page-color);
-}
-
-.page-section:nth-of-type(odd)>.section-container>p>a {
-    color: var(--even-page-color);
 }

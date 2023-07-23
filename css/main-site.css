@@ -2,11 +2,11 @@
     --margin-size: 15vw;
     --max-page-width: calc(100vw - (var(--margin-size) * 2));
     --testing-border-size: 0px;
-    --odd-page-color: #231F20;
-    --even-page-color: #BB4430;
-    --link-color: #EBCFB2;
-    --text-color: #EBCFB2;
-    --section-color: calc(var(--page-color) *.7)
+    --text: #f6f4f4;
+    --background: #060404;
+    --primary: #796767;
+    --secondary: #292323;
+    --accent: #958383;
 }
 
 body {
@@ -16,12 +16,12 @@ body {
 }
 
 a {
-    color: var(--link-color);
+    color: var(--text);
     text-decoration: none;
 }
 
 a:hover {
-    opacity: 70%;
+    opacity: 0.6;
 }
 
 .page-section {
@@ -36,7 +36,7 @@ a:hover {
     margin: auto;
     min-height: 100vh;
     overflow: hidden;
-    color: var(--text-color);
+    color: var(--text);
 }
 
 .section-split {
@@ -100,22 +100,12 @@ a:hover {
     width: 100%;
 }
 
-.body .page-section:nth-of-type(odd) {
-    background: var(--odd-page-color);
-    /* color: var(--even-page-color); */
-}
-
 .body .page-section:nth-of-type(even) {
-    background: var(--even-page-color);
-    /* color: var(--odd-page-color); */
+    background: var(--background);
 }
 
-.page-section:nth-of-type(odd) a > h2 {
-    color: var(--even-page-color);
-}
-
-.page-section:nth-of-type(even) a > h2 {
-    color: var(--odd-page-color);
+.body .page-section:nth-of-type(odd) {
+    background: var(--secondary);
 }
 
 .flex-div {

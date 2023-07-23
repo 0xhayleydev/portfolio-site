@@ -124,8 +124,40 @@ function addInitialContent(projectJson) {
 	p.innerHTML = projectJson["description"];
 	subsection.appendChild(p);
 
+	let buttons = createDownloadButtons(projectJson);
+	if (buttons != null) {
+		subsection.appendChild(buttons);
+	}
+
 	section.appendChild(subsection);
 	return section;
+}
+
+function createDownloadButtons(projectJson) {
+	if (projectJson["URL"] == "" && projectJson["SourceURL"] == "") {
+		return null;
+	}
+
+	let div = createElement("div");
+	div.classList.add("project-url-container");
+
+	if (projectJson["URL"] != "") {
+		let download = createElement("a");
+		download.href = projectJson["URL"];
+		download.innerHTML = "<h2>Download Now</h2>";
+		download.classList.add("project-url");
+		div.appendChild(download);
+	}
+
+	if (projectJson["SourceURL"] != "") {
+		let source = createElement("a");
+		source.href = projectJson["SourceURL"];
+		source.innerHTML = "<h2>View Source</h2>";
+		source.classList.add("project-url");
+		div.appendChild(source);
+	}
+
+	return div;
 }
 
 function getIcons(projectJson) {
@@ -142,6 +174,7 @@ function getIcons(projectJson) {
 }
 
 function createElement(type) {
+	console.log(type);
 	let element = document.createElement(type);
 	return element;
 }

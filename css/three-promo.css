@@ -1,12 +1,10 @@
-
-
 .three-promo {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: flex-start;
-	align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
     max-width: 100%;
 }
 
@@ -39,8 +37,7 @@
     aspect-ratio: 1/1;
 }
 
-@media (max-aspect-ratio: 1/1)
-  {
+@media (max-aspect-ratio: 1/1) {
     .three-promo {
         flex-direction: column;
     }
@@ -57,7 +54,7 @@
         margin: 10px;
         min-width: 300px;
     }
-  }
+}
 
 @media (pointer:coarse) {
     .three-promo-description {
