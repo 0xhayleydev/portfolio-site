@@ -72,7 +72,7 @@ function getImage(sectionJson) {
 		return null;
 	}
 	let img = createElement("img");
-	img.className = "project-media";
+	img.className = "project-media border";
 	img.src = sectionJson["image"];
 	return img;
 }
@@ -84,7 +84,7 @@ function getVideo(sectionJson) {
 	}
 	let iframe = createElement("iframe");
 	iframe.src = sectionJson["video"];
-	iframe.classList = "project-media";
+	iframe.classList = "project-media border";
 	return iframe;
 }
 
@@ -115,7 +115,7 @@ function addInitialContent(projectJson) {
 
 	let img = createElement("img");
 	img.src = projectJson["image"];
-	img.className = "project-media";
+	img.className = "project-media border";
 	subsection.appendChild(img);
 
 	subsection.appendChild(getIcons(projectJson));
@@ -144,7 +144,7 @@ function createDownloadButtons(projectJson) {
 	if (projectJson["URL"] != "") {
 		let download = createElement("a");
 		download.href = projectJson["URL"];
-		download.innerHTML = "<h2>Download Now</h2>";
+		download.innerHTML = "<h2>Play Now</h2>";
 		download.classList.add("project-url");
 		div.appendChild(download);
 	}

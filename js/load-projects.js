@@ -29,7 +29,7 @@ function showProject(json, id) {
 	}
 	let container = createElement("a");
 	container.href = getURL(json, id);
-	container.classList.add("three-promo-container");
+	container.classList.add("three-promo-card");
 	container.appendChild(getImage(project));
 	container.appendChild(getName(project));
 	container.appendChild(getDescription(project));
@@ -46,6 +46,8 @@ function getName(json) {
 function getImage(json) {
 	let img = createElement("img");
 	img.src = json["image"];
+	img.classList.add("square-image");
+	img.classList.add("border");
 	return img;
 }
 

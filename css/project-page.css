@@ -14,8 +14,6 @@
     aspect-ratio: 16/9;
     object-fit: cover;
     width: 100%;
-    border: 5px solid var(--accent);
-    border-radius: 25px;
 }
 
 .project-url-container {
@@ -26,12 +24,13 @@
     display: block;
     margin: auto;
     padding: 10px;
-    width: 25%;
     background-color: var(--accent);
     border: 5px solid var(--accent);
     border-radius: 25px;
     text-decoration: none;
     background-color: var(--secondary);
+    min-width: 25%;
+    max-width: fit-content;
 }
 
 .page-section:nth-of-type(odd) .project-url {
@@ -44,4 +43,11 @@
 
 a {
     text-decoration: underline;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .section-container {
+        width: 100vw;
+        max-width: 100vw;
+    }
 }
