@@ -200,7 +200,7 @@ a:hover {
     margin-block: 0.25em;
 }
 
-@media (max-aspect-ratio: 1/1) {
+@media (max-aspect-ratio: 1/1) and (max-width: 5in) {
     .section-split {
         flex-direction: column;
     }
