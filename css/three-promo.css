@@ -29,23 +29,33 @@
     opacity: 1;
 }
 
+@media (max-aspect-ratio: 1/1) and (max-width: 10in) and (min-width: 7in) {
+    .three-promo-card {
+        max-width: 100%;
+        width: 100%;
+        flex-direction: row;
+    }
 
+    .three-promo-card>div {
+        width: 45%;
+        margin: auto;
+    }
+}
 
-@media (max-aspect-ratio: 1/1) {
+@media (max-aspect-ratio: 1/1) and (max-width: 7in) {
     .three-promo {
         flex-direction: column;
     }
 
     .three-promo-card {
-        /* flex-direction: row; */
+        flex-direction: column;
         max-width: 100%;
         width: 100%;
     }
 
-    .three-promo-description {
-        width: 50%;
-        margin: 10px;
-        min-width: 300px;
+    .three-promo-card>div {
+        width: 100%;
+        margin: auto;
     }
 }
 

@@ -30,10 +30,14 @@ function showProject(json, id) {
 	let container = createElement("a");
 	container.href = getURL(json, id);
 	container.classList.add("three-promo-card");
-	container.appendChild(getImage(project));
-	container.appendChild(getName(project));
-	container.appendChild(getDescription(project));
-	container.appendChild(getIcons(project));
+	let imageAndTitle = createElement("div");
+	imageAndTitle.appendChild(getImage(project));
+	imageAndTitle.appendChild(getName(project));
+	container.appendChild(imageAndTitle);
+	let descriptionAndIcons = createElement("div");
+	descriptionAndIcons.appendChild(getDescription(project));
+	descriptionAndIcons.appendChild(getIcons(project));
+	container.appendChild(descriptionAndIcons);
 	return container;
 }
 

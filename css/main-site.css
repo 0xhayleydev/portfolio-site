@@ -188,19 +188,18 @@ a:hover {
 }
 
 .text-between-emoji {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: fit-content;
+    margin: auto;
 }
 
 .text-between-emoji p {
     margin-block: 0.25em;
+    margin: 5px;
 }
 
-@media (max-aspect-ratio: 1/1) and (max-width: 5in) {
+@media (max-aspect-ratio: 1/1) and (max-width: 8in) {
     .section-split {
         flex-direction: column;
     }
@@ -216,11 +215,18 @@ a:hover {
     }
 
     .square-image {
-        width: 100vw;
-        max-width: 100%;
+        max-height: 50vh;
+        max-width: auto;
     }
 
     .text-between-emoji {
         justify-content: space-between;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .wide {
+        width: 100%;
+        max-width: 100%;
     }
 }
