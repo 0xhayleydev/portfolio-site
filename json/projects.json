@@ -137,7 +137,7 @@
 		"description": "Play as a flight attendant aboard a private jet, hand out food to customers and make sure they are satisfied. In this fast-paced VR experience, the wrong order could be a matter of life or death. Only time will tell if you’re up to the challenge.",
 		"image": "./img/projects/flight-attendant-simulator/promo.png",
 		"icons": ["devicon-csharp-plain", "devicon-unity-original"],
-		"URL": "https://cdgamedev.itch.io/flight-attendant-simulator",
+		"URL": "https://0xhayleydev.itch.io/flight-attendant-simulator",
 		"SourceURL": "",
 		"sections": [
 			{
@@ -173,7 +173,7 @@
 				"image": "",
 				"video": "",
 				"media-showcase": "",
-				"description": "Check out Flight Attendant Simulator at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/435956?bg_color=1b1b1b&amp;fg_color=bcbcbc&amp;link_color=1DCDFE&amp;border_color=333333\" width=\"552\" height=\"167\"><a href=\"https://cdgamedev.itch.io/flight-attendant-simulator\">Flight Attendant Simulator by Hayley Davies</a></iframe>"
+				"description": "Check out Flight Attendant Simulator at the link below:<br><iframe frameborder=\"0\" src=\"https://itch.io/embed/435956?bg_color=1b1b1b&amp;fg_color=bcbcbc&amp;link_color=1DCDFE&amp;border_color=333333\" width=\"552\" height=\"167\"><a href=\"https://0xhayleydev.itch.io/flight-attendant-simulator\">Flight Attendant Simulator by Hayley Davies</a></iframe>"
 			}
 		]
 	},
