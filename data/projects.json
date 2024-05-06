@@ -1,0 +1,50 @@
+{
+    "experiences": [
+        {
+            "date_range": "2023 - Present",
+            "image": "/img/dambuster-logo.jpg",
+            "title": "Junior Tools Programmer - Dambuster Studios ",
+            "link": "https://dambuster.com",
+            "description": "Working on tools which helped in the post-release success of Dead Island 2. My primary focus was on maintaining existing tools and developing new ones, with an emphasis on modernisation of tools.",
+            "technologies": [
+                "C#",
+                "Python",
+                "C/C++",
+                "WPF",
+                "WinUI 3"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "image": "/img/space-launch-vr.png",
+            "title": "Space Launch VR ",
+            "link": "https://www.meta.com/en-gb/experiences/5806581506089142",
+            "description": "Space Launch VR is a Virtual Reality Simulation created by students from Falmouth University to commemorate the very first commercial Space Launch from UK soil.",
+            "technologies": [
+                "Unity",
+                "C#"
+            ]
+        },
+        {
+            "image": "/img/lone-sol.jpg",
+            "title": "Lone Sol ",
+            "link": "https://nameheregames.itch.io/lone-sol",
+            "description": "Interact with the world through the eyes of a child, solving puzzles and platforming using giant generators and metal robot arms all with the help of her flying robot companion, RoBo. Explore a ruined City that rewards player exploration with narrative collectibles.",
+            "technologies": [
+                "Unreal Engine 5",
+                "C++"
+            ]
+        },
+        {
+            "image": "/img/gruttel-scuttle.jpg",
+            "title": "Gruttel Scuttle ",
+            "link": "https://nameheregames.itch.io/lone-sol",
+            "description": "Interact with and manage a colony of gruttels as they clean their rubbish-filled home. Select which gruttels you will bring on your cleaning excursions. Feed them Nana Betsy ready meals to power them up, throughout the level. Direct the gruttels to the rubbish and back to their recycling machines, snapping them out of any distractions.",
+            "technologies": [
+                "Unity",
+                "C#"
+            ]
+        }
+    ]
+}

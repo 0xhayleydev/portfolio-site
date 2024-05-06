@@ -1,83 +1,135 @@
-fetch("./json/projects.json")
-	.then((response) => response.json())
-	.then((json) => parseJson(json));
+fetch('/data/projects.json')
+    .then((reponse) => reponse.json())
+    .then((json) => jsonParse(json));
 
-var order;
+function jsonParse(data) {
+    let experiences = data['experiences'];
+    for (let i = 0; i < experiences.length; i++) {
+        let experience = createExperienceContainer(experiences[i]);
+        document.getElementById('experience').append(experience);
+    }
 
-async function parseJson(json) {
-	parseProjects("games", json);
-	parseProjects("projects", json);
+    let projects = data['projects'];
+    for (let i = 0; i < projects.length; i++) {
+        let project = createProjectContainer(projects[i]);
+        document.getElementById('projects').append(project);
+    }
 }
 
-function parseProjects(name, json) {
-	order = json[name + "-order"];
+function createExperienceContainer(experience_data) {
+    let a = createLink(experience_data['link']);
 
-	let element = document.getElementById(name + "-showcase");
-	element.innerHTML = "";
+    let container = createContainer(experience_data);
+    a.appendChild(container);
 
-	for (let i = 0; i < order.length; i++) {
-		let id = order[i];
-		element.appendChild(showProject(json, id));
-	}
+    let date_range = createDateRange(experience_data);
+    container.appendChild(date_range);
+
+    let img = createIconImage(experience_data);
+    date_range.appendChild(img);
+
+    let project_details = createProjectDetails(experience_data);
+    container.appendChild(project_details);
+
+    return a;
 }
 
-function showProject(json, id) {
-	let project = json[id];
-	if (project == null) {
-		id = "blank-project";
-		project = json[id];
-	}
-	let container = createElement("a");
-	container.href = getURL(json, id);
-	container.classList.add("three-promo-card");
-	let imageAndTitle = createElement("div");
-	imageAndTitle.appendChild(getImage(project));
-	imageAndTitle.appendChild(getName(project));
-	container.appendChild(imageAndTitle);
-	let descriptionAndIcons = createElement("div");
-	descriptionAndIcons.appendChild(getDescription(project));
-	descriptionAndIcons.appendChild(getIcons(project));
-	container.appendChild(descriptionAndIcons);
-	return container;
+function createProjectContainer(project_data) {
+    let a = createLink(project_data['link']);
+    
+    let img = createBannerImage(project_data);
+    a.appendChild(img);
+
+    let container = createContainer(project_data);
+    a.appendChild(container);
+
+    let project_details = createProjectDetails(project_data);
+    container.appendChild(project_details);
+
+    return a;
 }
 
-function getName(json) {
-	let h2 = createElement("h2");
-	h2.innerHTML = json["name"];
-	return h2;
+function createLink(url) {
+    let a = document.createElement('a');
+    a.href = url;
+
+    a.classList.add('project-link')
+    return a;
 }
 
-function getImage(json) {
-	let img = createElement("img");
-	img.src = json["image"];
-	img.classList.add("square-image");
-	img.classList.add("border");
-	return img;
+function createContainer(project_data) {
+    let div = document.createElement('div');
+    div.classList.add('project-container');
+
+    return div;
 }
 
-function getDescription(json) {
-	let p = createElement("p");
-	p.innerHTML = json["summary"];
-	return p;
+function createDateRange(project_data) {
+    let p = document.createElement('p');
+    p.classList.add('no-margin');
+    p.innerHTML = project_data['date_range'];
+    
+    let div = document.createElement('div');
+    div.classList.add('project-date');
+    div.appendChild(p);
+
+    return div;
 }
 
-function getIcons(json) {
-	let div = createElement("div");
-	div.classList.add("social-links");
-	let icons = json["icons"];
-	for (let icon = 0; icon < icons.length; icon++) {
-		let i = createElement("i");
-		i.classList.add(icons[icon]);
-		div.appendChild(i);
-	}
-	return div;
+function createIconImage(project_data) {
+    let img = document.createElement('img');
+    img.src = project_data['image'];
+    img.classList.add('icon-image');
+
+    return img;
 }
 
-function getURL(json, id) {
-	return "./project.html?id=" + id;
+function createBannerImage(project_data) {
+    let img = document.createElement('img');
+    img.src = project_data['image'];
+    img.classList.add('banner-image');
+
+    return img;
 }
 
-function createElement(type) {
-	let element = document.createElement(type);
-	return element;
+function createProjectDetails(project_data) {
+    let container = document.createElement('div');
+    container.classList.add('project-details');
+
+    let title = document.createElement('h2');
+    title.classList.add('no-margin');
+    title.innerHTML = project_data['title'];
+
+    if (project_data['url'] != "") {
+        let i = document.createElement('i');
+        i.classList.add('fa-solid');
+        i.classList.add('fa-arrow-up-right-from-square');
+        title.appendChild(i)
+    }
+
+    let description = document.createElement('p');
+    description.innerHTML = project_data['description'];
+
+    container.appendChild(title);
+    container.appendChild(description);
+
+    let technologies = createTechnologiesContainer(project_data['technologies']);
+    container.appendChild(technologies);
+
+    return container;
+}
+
+function createTechnologiesContainer(technologies) {
+    let container = document.createElement('ul');
+    container.classList.add('technologies-preview');
+
+    for (let i = 0; i < technologies.length; i++) {
+        let item = document.createElement('div');
+        item.classList.add('technology-pill');
+        item.innerHTML = technologies[i];
+
+        container.appendChild(item);
+    }
+
+    return container;
 }
